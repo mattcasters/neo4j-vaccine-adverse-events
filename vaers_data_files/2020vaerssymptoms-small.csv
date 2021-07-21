@@ -1,0 +1,1269 @@
+VAERS_ID,SYMPTOM1,SYMPTOMVERSION1,SYMPTOM2,SYMPTOMVERSION2,SYMPTOM3,SYMPTOMVERSION3,SYMPTOM4,SYMPTOMVERSION4,SYMPTOM5,SYMPTOMVERSION5
+855017,Arthralgia,22.1,Chills,22.1,Injection site pain,22.1,Pyrexia,22.1,,
+855018,Chills,22.1,Fatigue,22.1,Hypertension,22.1,Hypoaesthesia,22.1,Injected limb mobility decreased,22.1
+855018,Muscular weakness,22.1,Pain in extremity,22.1,Pyrexia,22.1,Tremor,22.1,Vertigo,22.1
+855019,Pain,22.1,Pruritus,22.1,Rash,22.1,,,,
+855020,Chills,22.1,Influenza like illness,22.1,Myalgia,22.1,Pain in extremity,22.1,Pyrexia,22.1
+855021,Chills,22.1,Dizziness,22.1,Nausea,22.1,Palpitations,22.1,,
+855022,Erythema,22.1,Pain,22.1,Pruritus,22.1,,,,
+855023,Arthralgia,22.1,Asthenia,22.1,Bedridden,22.1,Chills,22.1,Headache,22.1
+855023,Influenza like illness,22.1,Pyrexia,22.1,Respiratory tract congestion,22.1,,,,
+855024,Chills,22.1,Dyskinesia,22.1,,,,,,
+855025,Arthralgia,22.1,Chills,22.1,Diarrhoea,22.1,Fatigue,22.1,Hyperhidrosis,22.1
+855025,Injection site pain,22.1,Myalgia,22.1,Nausea,22.1,Neck pain,22.1,Pain of skin,22.1
+855026,Blood test normal,22.1,Computerised tomogram head normal,22.1,Computerised tomogram thorax normal,22.1,Electrocardiogram normal,22.1,Facial bones fracture,22.1
+855026,Groin pain,22.1,Magnetic resonance imaging abnormal,22.1,Nausea,22.1,Pelvic fracture,22.1,Stress fracture,22.1
+855026,Syncope,22.1,,,,,,,,
+855027,Discomfort,22.1,Injection site pain,22.1,Injection site scar,22.1,Injection site vesicles,22.1,,
+855028,Chills,22.1,Feeling cold,22.1,Pain in extremity,22.1,,,,
+855029,Injection site pain,22.1,Malaise,22.1,Musculoskeletal pain,22.1,Neck pain,22.1,Pain in extremity,22.1
+855030,Chills,22.1,Dizziness,22.1,Hyperhidrosis,22.1,Hypersomnia,22.1,Pyrexia,22.1
+855030,Syncope,22.1,Vomiting,22.1,,,,,,
+855032,Injected limb mobility decreased,22.1,Injection site pain,22.1,,,,,,
+855033,Anxiety,22.1,Arthralgia,22.1,Blood thyroid stimulating hormone normal,22.1,Cardiac flutter,22.1,Cardiac monitoring normal,22.1
+855033,Chest X-ray normal,22.1,Decreased appetite,22.1,Dizziness,22.1,Dyspnoea,22.1,Electromyogram normal,22.1
+855033,Fatigue,22.1,Fibrin D dimer normal,22.1,Fibromyalgia,22.1,Food allergy,22.1,Full blood count normal,22.1
+855033,Headache,22.1,Myalgia,22.1,Nausea,22.1,Neuropathy peripheral,22.1,Postural orthostatic tachycardia syndrome,22.1
+855033,Ultrasound scan normal,22.1,Vitamin B12 normal,22.1,,,,,,
+855034,Diarrhoea,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Pain,22.1,Pain in extremity,22.1
+855035,Injected limb mobility decreased,22.1,Injection site erythema,22.1,Injection site induration,22.1,Injection site pain,22.1,Injection site swelling,22.1
+855035,Injection site warmth,22.1,Pyrexia,22.1,,,,,,
+855036,Nausea,22.1,Rash,22.1,,,,,,
+855037,No adverse event,22.1,Wrong product administered,22.1,,,,,,
+855038,Asthenia,22.1,Fatigue,22.1,Injection site pain,22.1,Pain,22.1,Pain in extremity,22.1
+855038,Pyrexia,22.1,,,,,,,,
+855039,Aphthous ulcer,22.1,Discomfort,22.1,Oral pain,22.1,,,,
+855040,Chills,22.1,Injection site erythema,22.1,Injection site pain,22.1,Lethargy,22.1,Myalgia,22.1
+855040,Pyrexia,22.1,,,,,,,,
+855051,No adverse event,22.1,Product storage error,22.1,,,,,,
+855052,Circumstance or information capable of leading to medication error,22.1,Product administered to patient of inappropriate age,22.1,Product dose omission,22.1,,,,
+855054,Diarrhoea,22.1,Muscular weakness,22.1,Pyrexia,22.1,Vomiting,22.1,,
+855055,Chills,22.1,Malaise,22.1,Pain,22.1,,,,
+855056,Chills,22.1,Fatigue,22.1,Headache,22.1,,,,
+855057,Myalgia,22.1,,,,,,,,
+855058,Abdominal discomfort,22.1,Pain,22.1,,,,,,
+855059,Adverse event,22.1,,,,,,,,
+855060,Herpes zoster,22.1,,,,,,,,
+855061,Blister,22.1,Herpes zoster,22.1,Nausea,22.1,,,,
+855062,Injection site erythema,22.1,Injection site swelling,22.1,,,,,,
+855063,Influenza like illness,22.1,,,,,,,,
+855064,Herpes zoster,22.1,,,,,,,,
+855065,Erythema multiforme,22.1,Rash papular,22.1,Vaccine positive rechallenge,22.1,,,,
+855066,Biopsy skin abnormal,22.1,Drug hypersensitivity,22.1,Rash morbilliform,22.1,Rash pruritic,22.1,Rash vesicular,22.1
+855067,Syringe issue,22.1,Underdose,22.1,,,,,,
+855068,Expired product administered,22.1,Injection site warmth,22.1,,,,,,
+855069,Adverse event,22.1,Inappropriate schedule of product administration,22.1,Influenza,22.1,Pain,22.1,Product administered at inappropriate site,22.1
+855070,Haematoma,22.1,Injection site discolouration,22.1,Injection site pain,22.1,Injection site swelling,22.1,Skin discolouration,22.1
+855071,Chills,22.1,Dyspnoea,22.1,,,,,,
+855072,Product administered to patient of inappropriate age,22.1,,,,,,,,
+855073,Herpes zoster,22.1,Laboratory test abnormal,22.1,,,,,,
+855074,HLA-B*27 positive,22.1,Nonspecific reaction,22.1,Rash,22.1,,,,
+855090,Herpes zoster,22.1,Post herpetic neuralgia,22.1,,,,,,
+855091,Blindness unilateral,22.1,Retinal artery occlusion,22.1,,,,,,
+855092,Maternal exposure during breast feeding,22.1,No adverse event,22.1,,,,,,
+855093,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855094,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855095,Erythema,22.1,,,,,,,,
+855096,Back pain,22.1,,,,,,,,
+855097,Back pain,22.1,Gait inability,22.1,,,,,,
+855098,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855099,Fatigue,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site pruritus,22.1,Injection site vesicles,22.1
+855099,Nausea,22.1,,,,,,,,
+855100,Herpes zoster,22.1,,,,,,,,
+855101,Immediate post-injection reaction,22.1,Injected limb mobility decreased,22.1,Injection site pain,22.1,Musculoskeletal pain,22.1,Product administered at inappropriate site,22.1
+855102,Influenza,22.1,Influenza B virus test positive,22.1,,,,,,
+855103,Feeling abnormal,22.1,Influenza like illness,22.1,Loss of personal independence in daily activities,22.1,Malaise,22.1,,
+855104,Feeling abnormal,22.1,Influenza like illness,22.1,Injection site pain,22.1,Knee arthroplasty,22.1,,
+855105,Injection site erythema,22.1,Injection site joint pain,22.1,Injection site pain,22.1,Injection site swelling,22.1,Malaise,22.1
+855105,Pyrexia,22.1,,,,,,,,
+855106,Injected limb mobility decreased,22.1,Injection site pain,22.1,Pain,22.1,Ultrasound scan normal,22.1,,
+855107,Accidental exposure to product,22.1,Accidental underdose,22.1,Exposure via skin contact,22.1,Injection site extravasation,22.1,Wrong technique in product usage process,22.1
+855108,Dyspepsia,22.1,Fatigue,22.1,Headache,22.1,Nausea,22.1,Pain,22.1
+855108,Pyrexia,22.1,,,,,,,,
+855109,Magnetic resonance imaging,22.1,Mobility decreased,22.1,Neck pain,22.1,Neuralgic amyotrophy,22.1,Pain,22.1
+855110,Injection site erythema,22.1,,,,,,,,
+855113,Asthenia,22.1,Condition aggravated,22.1,Lyme disease,22.1,Mobility decreased,22.1,,
+855114,Pyrexia,22.1,Rash,22.1,Rash maculo-papular,22.1,,,,
+855115,Herpes zoster,22.1,,,,,,,,
+855116,Chills,22.1,Headache,22.1,Pain,22.1,Pyrexia,22.1,,
+855118,Interchange of vaccine products,22.1,,,,,,,,
+855119,Herpes zoster,22.1,,,,,,,,
+855120,Blister,22.1,Herpes zoster,22.1,Oral herpes,22.1,Product supply issue,22.1,Vaccination failure,22.1
+855121,Chills,22.1,Erythema,22.1,Fatigue,22.1,Hypersensitivity,22.1,Influenza like illness,22.1
+855121,Malaise,22.1,Nausea,22.1,Neuralgia,22.1,Pain,22.1,Pain in extremity,22.1
+855121,Peripheral swelling,22.1,Pyrexia,22.1,Tinea capitis,22.1,,,,
+855123,Erythema,22.1,Incorrect route of product administration,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Peripheral swelling,22.1
+855124,Fatigue,22.1,Headache,22.1,Insomnia,22.1,Loss of personal independence in daily activities,22.1,Pain,22.1
+855124,Pain in extremity,22.1,,,,,,,,
+855125,Back pain,23,Diarrhoea,23,Injection site induration,23,Injection site pain,23,Injection site rash,23
+855125,Nausea,23,Neck pain,23,,,,,,
+855126,Discomfort,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Myalgia,22.1,Pain,22.1
+855126,Pain in extremity,22.1,,,,,,,,
+855127,Musculoskeletal pain,22.1,Pain in extremity,22.1,,,,,,
+855131,Headache,22.1,Nausea,22.1,,,,,,
+855132,Feeling abnormal,22.1,"Hallucination, visual",22.1,Migraine,22.1,Neurological examination normal,22.1,,
+855133,Injection site pruritus,22.1,Pruritus,22.1,,,,,,
+855143,No adverse event,22.1,Product storage error,22.1,,,,,,
+855145,Pain in extremity,22.1,Paraesthesia,22.1,,,,,,
+855146,Injected limb mobility decreased,22.1,Pain in extremity,22.1,,,,,,
+855147,Cough,22.1,Dyspnoea,22.1,Dysstasia,22.1,Loss of consciousness,22.1,,
+855148,Pain in extremity,22.1,,,,,,,,
+855149,Dyspnoea,22.1,Erythema,22.1,Hyperhidrosis,22.1,Lip swelling,22.1,Swollen tongue,22.1
+855150,Eye swelling,22.1,Headache,22.1,,,,,,
+855151,Angioedema,22.1,Dyspnoea,22.1,Enlarged uvula,22.1,Pharyngeal swelling,22.1,Swollen tongue,22.1
+855151,Tonsillar hypertrophy,22.1,,,,,,,,
+855152,Headache,22.1,Loss of consciousness,22.1,Muscle spasms,22.1,Pain,22.1,Somnolence,22.1
+855157,Purpura,22.1,,,,,,,,
+855158,Injected limb mobility decreased,22.1,Musculoskeletal stiffness,22.1,Pain in extremity,22.1,,,,
+855159,Back pain,22.1,Blood heavy metal normal,22.1,Decreased appetite,22.1,Fatigue,22.1,Hypoaesthesia,22.1
+855159,Malaise,22.1,Motor dysfunction,22.1,Musculoskeletal pain,22.1,Pain in jaw,22.1,Paraesthesia,22.1
+855159,Spinal pain,22.1,,,,,,,,
+855160,Feeling abnormal,22.1,Presyncope,22.1,Seizure,22.1,Syncope,22.1,,
+855161,Injection site erythema,22.1,Injection site pain,22.1,Injection site streaking,22.1,Injection site warmth,22.1,,
+855162,Drooling,22.1,Hypoaesthesia,22.1,,,,,,
+855163,Injection site pain,22.1,Pain,22.1,,,,,,
+855165,Discomfort,23,Injection site pain,23,Neuralgia,23,,,,
+855167,Incorrect route of product administration,22.1,No adverse event,22.1,Product storage error,22.1,,,,
+855168,No adverse event,22.1,Product storage error,22.1,,,,,,
+855170,Injection site erythema,22.1,Injection site mass,22.1,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1
+855171,Diarrhoea,22.1,Fatigue,22.1,Headache,22.1,Injection site pain,22.1,Injection site swelling,22.1
+855172,Asthenia,22.1,Back pain,22.1,Chest X-ray,22.1,Computerised tomogram,22.1,Dysphagia,22.1
+855172,Hypertension,22.1,Magnetic resonance imaging,22.1,Pain,22.1,Pain in extremity,22.1,,
+855173,Asthenia,22.1,Chills,22.1,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1
+855173,Nausea,22.1,Pyrexia,22.1,,,,,,
+855174,Influenza like illness,22.1,Pain,22.1,,,,,,
+855175,Arthralgia,22.1,Back pain,22.1,Gait disturbance,22.1,Groin pain,22.1,Joint noise,22.1
+855175,Pain in extremity,22.1,,,,,,,,
+855176,Injection site erythema,22.1,,,,,,,,
+855177,Erythema,22.1,Skin warm,22.1,,,,,,
+855178,Abdominal pain,22.1,Appendicectomy,22.1,Henoch-Schonlein purpura,22.1,Rash,22.1,Vomiting,22.1
+855179,Chills,22.1,Fatigue,22.1,Pain,22.1,Pyrexia,22.1,,
+855180,Headache,22.1,Injection site erythema,22.1,Injection site inflammation,22.1,Injection site pain,22.1,Injection site warmth,22.1
+855180,Malaise,22.1,Pyrexia,22.1,,,,,,
+855181,Dizziness,22.1,Eye movement disorder,22.1,Loss of consciousness,22.1,Syncope,22.1,Unresponsive to stimuli,22.1
+855182,Asthenia,22.1,Fatigue,22.1,Headache,22.1,Injection site erythema,22.1,Injection site rash,22.1
+855182,Pyrexia,22.1,,,,,,,,
+855183,Dizziness,22.1,Inflammation,22.1,Injected limb mobility decreased,22.1,Loss of consciousness,22.1,Malaise,22.1
+855183,Pain in extremity,22.1,Pyrexia,22.1,Tremor,22.1,Vomiting,22.1,Walking aid user,22.1
+855184,Herpes zoster,22.1,Neuralgia,22.1,Pruritus,22.1,Rash,22.1,Skin discolouration,22.1
+855184,Skin ulcer,22.1,,,,,,,,
+855185,Arthralgia,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,Skin warm,22.1,,
+855186,Joint range of motion decreased,22.1,Magnetic resonance imaging joint,22.1,Magnetic resonance imaging normal,22.1,Mobility decreased,22.1,Musculoskeletal pain,22.1
+855187,Loss of consciousness,22.1,,,,,,,,
+855188,Electromyogram normal,22.1,Hypoaesthesia,22.1,Injected limb mobility decreased,22.1,Winged scapula,22.1,,
+855189,Injection site pain,22.1,Tendonitis,22.1,X-ray normal,22.1,,,,
+855190,Headache,22.1,Hyperhidrosis,22.1,Injection site pain,22.1,Musculoskeletal pain,22.1,Nausea,22.1
+855190,Pain,22.1,,,,,,,,
+855191,Chills,22.1,Influenza like illness,22.1,Nausea,22.1,,,,
+855192,Abdominal pain upper,22.1,Chills,22.1,Headache,22.1,Injection site erythema,22.1,Injection site infection,22.1
+855192,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1,Nausea,22.1,Pyrexia,22.1
+855192,Tremor,22.1,,,,,,,,
+855201,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,Wrong product administered,22.1,,,,
+855202,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855203,Herpes zoster,22.1,,,,,,,,
+855204,Demyelination,22.1,Hypoaesthesia,22.1,Myelitis transverse,22.1,Neuropathy peripheral,22.1,Paraesthesia,22.1
+855204,Poliomyelitis,22.1,,,,,,,,
+855211,No adverse event,22.1,Product storage error,22.1,,,,,,
+855212,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855214,Burning sensation,22.1,Computerised tomogram,22.1,Herpes zoster,22.1,Incomplete course of vaccination,22.1,Nodule,22.1
+855214,Pruritus,22.1,,,,,,,,
+855215,Hypersensitivity,22.1,Rash erythematous,22.1,Rash pruritic,22.1,,,,
+855216,Adverse drug reaction,22.1,Brain injury,22.1,Impaired driving ability,22.1,Loss of personal independence in daily activities,22.1,Speech disorder,22.1
+855217,Chest discomfort,22.1,Nausea,22.1,,,,,,
+855218,Fatigue,22.1,Headache,22.1,Loss of personal independence in daily activities,22.1,Pain,22.1,,
+855221,Rash,22.1,,,,,,,,
+855222,Nerve injury,22.1,,,,,,,,
+855225,Arthralgia,22.1,Injection site pain,22.1,,,,,,
+855226,Chemotherapy,22.1,Diffuse large B-cell lymphoma,22.1,Non-Hodgkin's lymphoma,22.1,,,,
+855227,Contusion,22.1,Dry skin,22.1,Erythema,22.1,Feeling hot,22.1,Insomnia,22.1
+855227,Pruritus,22.1,Scratch,22.1,Skin ulcer,22.1,,,,
+855228,Extra dose administered,22.1,,,,,,,,
+855229,Dizziness,22.1,Fall,22.1,Gait disturbance,22.1,Loss of consciousness,22.1,,
+855230,Blood lactic acid increased,22.1,Blood sodium decreased,22.1,Injection site cellulitis,22.1,Injection site erythema,22.1,Injection site induration,22.1
+855230,Injection site pain,22.1,Injection site warmth,22.1,Pyrexia,22.1,Sepsis,22.1,Tachycardia,22.1
+855230,White blood cell count increased,22.1,,,,,,,,
+855231,Asthenia,22.1,Injection site joint pain,22.1,Injection site pain,22.1,Middle insomnia,22.1,Sleep disorder,22.1
+855232,Arthralgia,22.1,Injection site pain,22.1,Pain,22.1,Pain in extremity,22.1,,
+855243,Antibody test negative,22.1,Product storage error,22.1,,,,,,
+855244,Malaise,22.1,,,,,,,,
+855245,Product storage error,22.1,,,,,,,,
+855246,Hepatitis A antibody negative,22.1,Hepatitis B surface antigen positive,22.1,,,,,,
+855247,Asthenia,22.1,Back pain,22.1,Blood test normal,22.1,Erythema,22.1,Fatigue,22.1
+855247,Full blood count normal,22.1,Metabolic function test normal,22.1,Muscular weakness,22.1,Neck pain,22.1,Peripheral swelling,22.1
+855247,Pruritus,22.1,,,,,,,,
+855248,Pain,22.1,Screaming,22.1,Vomiting,22.1,,,,
+855249,Unevaluable event,22.1,,,,,,,,
+855250,Injection site erythema,22.1,Injection site induration,22.1,Injection site swelling,22.1,,,,
+855251,Fatigue,22.1,Impaired work ability,22.1,Injection site pain,22.1,Insomnia,22.1,Loss of personal independence in daily activities,22.1
+855251,Magnetic resonance imaging,22.1,Pain,22.1,Product administered at inappropriate site,22.1,Weight bearing difficulty,22.1,X-ray,22.1
+855252,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1,,
+855253,Arthralgia,22.1,Groin pain,22.1,Pain,22.1,Tenderness,22.1,Urine analysis,22.1
+855254,Adverse reaction,23,Cellulitis,23,Erythema,23,Pain in extremity,23,Peripheral swelling,23
+855254,Ultrasound scan normal,23,,,,,,,,
+855255,Headache,22.1,Hypoacusis,22.1,Laboratory test,22.1,Lip swelling,22.1,Nausea,22.1
+855256,Injection site pain,22.1,Muscle spasms,22.1,Musculoskeletal pain,22.1,Paraesthesia,22.1,,
+855257,Erythema,22.1,Swelling face,22.1,,,,,,
+855260,Erythema,22.1,Headache,22.1,Incorrect dose administered,22.1,Nausea,22.1,,
+855261,Erythema,22.1,Lymphocyte percentage decreased,22.1,Monocyte count increased,22.1,Neutrophil count increased,22.1,Neutrophil percentage increased,22.1
+855261,Pain in extremity,22.1,Peripheral swelling,22.1,White blood cell count increased,22.1,,,,
+855262,Anxiety,22.1,Bedridden,22.1,Chills,22.1,Condition aggravated,22.1,Fatigue,22.1
+855262,Feeling abnormal,22.1,Headache,22.1,Insomnia,22.1,Memory impairment,22.1,Pyrexia,22.1
+855262,Vomiting,22.1,,,,,,,,
+855263,Injection site erythema,22.1,Injection site pruritus,22.1,Injection site rash,22.1,Irritability,22.1,,
+855264,Hypersensitivity,22.1,Scab,22.1,,,,,,
+855265,Injection site swelling,22.1,,,,,,,,
+855266,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855267,Bursitis,22.1,Contusion,22.1,Mobility decreased,22.1,Musculoskeletal pain,22.1,,
+855268,No adverse event,22.1,Wrong product administered,22.1,,,,,,
+855270,No adverse event,22.1,Product storage error,22.1,,,,,,
+855271,Loop electrosurgical excision procedure,22.1,Precancerous cells present,22.1,,,,,,
+855272,Herpes zoster,22.1,Post herpetic neuralgia,22.1,,,,,,
+855273,Mobility decreased,22.1,Pain in extremity,22.1,,,,,,
+855274,No adverse event,22.1,Wrong product administered,22.1,,,,,,
+855275,Migraine,22.1,Paralysis,22.1,,,,,,
+855276,Immediate post-injection reaction,22.1,Injected limb mobility decreased,22.1,Injection site pain,22.1,Pain,22.1,,
+855277,Chiropractic,22.1,Hypoaesthesia,22.1,Inflammation,22.1,Injection site hypoaesthesia,22.1,Injection site pain,22.1
+855277,Pain,22.1,Vaccination site pain,22.1,,,,,,
+855278,Injection site cellulitis,22.1,Injection site erythema,22.1,Injection site induration,22.1,Injection site warmth,22.1,,
+855279,Loss of consciousness,22.1,Syncope,22.1,Tremor,22.1,Unresponsive to stimuli,22.1,,
+855287,Herpes zoster,22.1,,,,,,,,
+855288,No adverse event,22.1,Product storage error,22.1,,,,,,
+855289,Underdose,22.1,,,,,,,,
+855290,Erythema,22.1,Influenza like illness,22.1,Pain,22.1,Peripheral swelling,22.1,Pustule,22.1
+855290,Sensory loss,22.1,Ultrasound scan,22.1,Upper respiratory tract infection,22.1,,,,
+855291,Injection site erythema,22.1,Injection site swelling,22.1,,,,,,
+855292,Biopsy skin abnormal,22.1,Follicular mucinosis,22.1,Genital rash,22.1,Rash,22.1,Skin disorder,22.1
+855292,Streptococcus test positive,22.1,,,,,,,,
+855293,Product administered to patient of inappropriate age,22.1,,,,,,,,
+855294,Unevaluable event,22.1,,,,,,,,
+855295,Injection site pain,22.1,Pyrexia,22.1,,,,,,
+855296,Back pain,22.1,,,,,,,,
+855297,Injection site erythema,22.1,Injection site pruritus,22.1,Injection site swelling,22.1,,,,
+855298,Product administered to patient of inappropriate age,22.1,,,,,,,,
+855299,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,,,,
+855300,Chills,22.1,Decreased appetite,22.1,Headache,22.1,Hyperhidrosis,22.1,Loss of personal independence in daily activities,22.1
+855300,Malaise,22.1,Nausea,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,Pyrexia,22.1
+855300,Weight decreased,22.1,,,,,,,,
+855301,Joint lock,22.1,Mobility decreased,22.1,Pain,22.1,,,,
+855303,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855304,Herpes zoster,22.1,,,,,,,,
+855305,Injection site pain,22.1,Injection site swelling,22.1,Lethargy,22.1,Muscular weakness,22.1,Myalgia,22.1
+855305,Nausea,22.1,,,,,,,,
+855306,Joint injection,22.1,Joint range of motion decreased,22.1,Magnetic resonance imaging abnormal,22.1,Pain in extremity,22.1,,
+855307,Neuralgia,22.1,Neuropathy peripheral,22.1,Paraesthesia,22.1,Road traffic accident,22.1,,
+855308,Fall,22.1,Nasal injury,22.1,Pallor,22.1,Tremor,22.1,Unresponsive to stimuli,22.1
+855309,Immediate post-injection reaction,22.1,Injection site nodule,22.1,,,,,,
+855310,Headache,22.1,Pain,22.1,Vomiting,22.1,,,,
+855311,Chills,22.1,Diarrhoea,22.1,Fatigue,22.1,Headache,22.1,Myalgia,22.1
+855311,Nausea,22.1,,,,,,,,
+855312,Headache,22.1,Seizure,22.1,Vision blurred,22.1,,,,
+855313,Abdominal discomfort,22.1,Chills,22.1,Fatigue,22.1,Headache,22.1,Injection site pain,22.1
+855313,Musculoskeletal pain,22.1,Neck pain,22.1,Nodule,22.1,Pain in extremity,22.1,,
+855314,Injection site erythema,22.1,Injection site nodule,22.1,Injection site pain,22.1,Injection site streaking,22.1,Injection site swelling,22.1
+855314,Injection site warmth,22.1,,,,,,,,
+855315,Injected limb mobility decreased,22.1,Injection site bruising,22.1,Injection site swelling,22.1,Pain in extremity,22.1,Pyrexia,22.1
+855315,Vomiting,22.1,,,,,,,,
+855316,Feeling cold,22.1,Pain,22.1,Pyrexia,22.1,,,,
+855317,Musculoskeletal disorder,22.1,Pain in extremity,22.1,,,,,,
+855318,Cold sweat,22.1,Dizziness,22.1,Presyncope,22.1,Skin warm,22.1,Somnolence,22.1
+855318,Visual impairment,22.1,,,,,,,,
+855319,Chills,22.1,Eye pain,22.1,Eye swelling,22.1,Eyelid rash,22.1,Foreign body sensation in eyes,22.1
+855319,Influenza like illness,22.1,Myalgia,22.1,Ocular hyperaemia,22.1,Pain in extremity,22.1,Pyrexia,22.1
+855319,Swollen tear duct,22.1,,,,,,,,
+855320,Hyperhidrosis,22.1,Nausea,22.1,Presyncope,22.1,Vomiting,22.1,,
+855321,Anxiety,22.1,Asthenia,22.1,Dizziness,22.1,Fatigue,22.1,Palpitations,22.1
+855321,Periorbital swelling,22.1,Presyncope,22.1,Pyrexia,22.1,Tinnitus,22.1,,
+855322,Crying,22.1,Injection site movement impairment,22.1,Pain,22.1,,,,
+855323,Arthralgia,22.1,Headache,22.1,Malaise,22.1,Pain in extremity,22.1,,
+855324,Chills,22.1,Headache,22.1,Myalgia,22.1,Pyrexia,22.1,,
+855325,Injected limb mobility decreased,22.1,Injection site pain,22.1,Muscular weakness,22.1,Pain in extremity,22.1,,
+855326,Erythema,22.1,Pain in extremity,22.1,Pyrexia,22.1,,,,
+855327,Atrial fibrillation,22.1,Chills,22.1,Condition aggravated,22.1,Discomfort,22.1,Gait disturbance,22.1
+855327,Headache,22.1,Insomnia,22.1,Joint stiffness,22.1,Musculoskeletal stiffness,22.1,Pain,22.1
+855327,Palpitations,22.1,Pyrexia,22.1,Tremor,22.1,Viral infection,22.1,,
+855328,Chills,22.1,Eye movement disorder,22.1,Loss of consciousness,22.1,Pyrexia,22.1,Vomiting,22.1
+855329,Discomfort,22.1,Head discomfort,22.1,Mobility decreased,22.1,Neck pain,22.1,Pain in extremity,22.1
+855330,Erythema,22.1,Mobility decreased,22.1,Myalgia,22.1,Pain,22.1,Pyrexia,22.1
+855331,Chills,22.1,Decreased appetite,22.1,Headache,22.1,Nausea,22.1,Pain,22.1
+855331,Pyrexia,22.1,,,,,,,,
+855332,Abdominal pain upper,22.1,Dizziness,22.1,Nausea,22.1,,,,
+855333,Injection site pain,22.1,Muscular weakness,22.1,,,,,,
+855334,Lip swelling,22.1,Peripheral swelling,22.1,Swelling,22.1,Swelling face,22.1,,
+855335,Feeling cold,22.1,Hallucination,22.1,Headache,22.1,Tremor,22.1,,
+855336,Pain in extremity,22.1,,,,,,,,
+855337,Herpes zoster,22.1,,,,,,,,
+855338,Chills,22.1,Fatigue,22.1,Headache,22.1,Injection site pain,22.1,Myalgia,22.1
+855339,Chills,22.1,,,,,,,,
+855340,Fatigue,22.1,Immediate post-injection reaction,22.1,Loss of personal independence in daily activities,22.1,Musculoskeletal pain,22.1,Neck pain,22.1
+855340,Paraesthesia,22.1,Peripheral swelling,22.1,,,,,,
+855341,Chest X-ray,22.1,Computerised tomogram head,22.1,Dysphagia,22.1,Electrocardiogram,22.1,Electromyogram,22.1
+855341,Fall,22.1,Guillain-Barre syndrome,22.1,Haematology test,22.1,Housebound,22.1,Hypoaesthesia,22.1
+855341,Immunoglobulin therapy,22.1,Intensive care,22.1,Laboratory test,22.1,Loss of control of legs,22.1,Lumbar puncture,22.1
+855341,Magnetic resonance imaging brain,22.1,Magnetic resonance imaging spinal,22.1,Muscular weakness,22.1,Paraesthesia,22.1,Respiratory distress,22.1
+855342,Injection site mass,22.1,Injection site pain,22.1,Injection site warmth,22.1,Pain,22.1,Pyrexia,22.1
+855343,Wrong product administered,22.1,,,,,,,,
+855344,Scab,22.1,Skin discolouration,22.1,Swelling,22.1,,,,
+855345,Herpes zoster,22.1,,,,,,,,
+855346,Diarrhoea,22.1,Fatigue,22.1,Nausea,22.1,Pain,22.1,Pyrexia,22.1
+855347,Hypersensitivity,22.1,Pruritus,22.1,Throat irritation,22.1,Urticaria,22.1,,
+855348,Urticaria,22.1,,,,,,,,
+855349,Guillain-Barre syndrome,22.1,Muscular weakness,22.1,Pain,22.1,,,,
+855350,Abdominal discomfort,22.1,Abdominal pain upper,22.1,Chills,22.1,Headache,22.1,Myalgia,22.1
+855350,Nausea,22.1,Pain,22.1,,,,,,
+855352,Back pain,22.1,Chest pain,22.1,Pain,22.1,,,,
+855353,Dehydration,22.1,Diarrhoea,22.1,Headache,22.1,Insomnia,22.1,Pain,22.1
+855353,Vomiting,22.1,,,,,,,,
+855354,Pyrexia,22.1,,,,,,,,
+855356,Epilepsy,22.1,Seizure,22.1,,,,,,
+855357,Chills,22.1,Headache,22.1,Influenza like illness,22.1,Injected limb mobility decreased,22.1,Pain,22.1
+855358,Injection site pain,22.1,,,,,,,,
+855359,Blister,22.1,Erythema,22.1,Hypoaesthesia,22.1,Swelling,22.1,,
+855360,Chills,22.1,Fatigue,22.1,Headache,22.1,Injection site pain,22.1,Myalgia,22.1
+855360,Pyrexia,22.1,,,,,,,,
+855361,Musculoskeletal pain,22.1,Pain,22.1,Pain in extremity,22.1,,,,
+855362,Headache,22.1,Injection site pain,22.1,Micturition urgency,22.1,Mobility decreased,22.1,Pain,22.1
+855362,Pain in extremity,22.1,,,,,,,,
+855363,Chills,22.1,Feeling cold,22.1,Hot flush,22.1,Nausea,22.1,Presyncope,22.1
+855364,Ageusia,22.1,Blood test normal,22.1,Magnetic resonance imaging brain normal,22.1,,,,
+855365,Injection site erythema,22.1,Injection site pain,22.1,,,,,,
+855366,Asthenia,22.1,Chills,22.1,Dizziness,22.1,Headache,22.1,Injection site erythema,22.1
+855366,Injection site swelling,22.1,Injection site warmth,22.1,Nausea,22.1,Pain,22.1,Pyrexia,22.1
+855366,Retching,22.1,Vomiting,22.1,,,,,,
+855367,Hypersensitivity,22.1,Pruritus,22.1,Throat irritation,22.1,Tongue disorder,22.1,,
+855368,Immediate post-injection reaction,22.1,Injection site pain,22.1,Nerve injury,22.1,Pain,22.1,Product administered at inappropriate site,22.1
+855369,Anxiety,22.1,Deafness,22.1,Dizziness,22.1,Feeling cold,22.1,Headache,22.1
+855369,Pallor,22.1,,,,,,,,
+855370,Blindness,22.1,Blindness unilateral,22.1,Blood test,22.1,Magnetic resonance imaging brain,22.1,Ophthalmological examination,22.1
+855370,Optic nerve sheath haemorrhage,22.1,,,,,,,,
+855371,Lethargy,22.1,Malaise,22.1,,,,,,
+855372,Dyspnoea,22.1,Hypersensitivity,22.1,Injection site erythema,22.1,,,,
+855373,Blood test,22.1,Electrocardiogram,22.1,Malaise,22.1,Syncope,22.1,,
+855374,Erythema,22.1,Nausea,22.1,Pain,22.1,Swelling,22.1,,
+855375,Seizure,22.1,,,,,,,,
+855376,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,Nausea,22.1,,
+855377,Chills,22.1,Dizziness,22.1,Feeling hot,22.1,Headache,22.1,Hyperhidrosis,22.1
+855377,Loss of consciousness,22.1,Malaise,22.1,Nausea,22.1,,,,
+855378,Dysphagia,22.1,Erythema,22.1,Lymphadenopathy,22.1,Palpitations,22.1,Peripheral swelling,22.1
+855378,Skin warm,22.1,Tenderness,22.1,,,,,,
+855379,Injection site pain,22.1,Pain in extremity,22.1,,,,,,
+855380,Exposure during pregnancy,22.1,Foetal disorder,22.1,Premature delivery,22.1,Ultrasound antenatal screen,22.1,,
+855381,Chest discomfort,22.1,Dyspnoea,22.1,Urticaria,22.1,,,,
+855382,Pain in extremity,22.1,,,,,,,,
+855383,Abdominal discomfort,22.1,Fatigue,22.1,Pain,22.1,,,,
+855384,Feeling hot,22.1,Pruritus,22.1,,,,,,
+855385,Musculoskeletal pain,22.1,Pain,22.1,Sleep disorder,22.1,,,,
+855386,Fall,22.1,Head injury,22.1,Limb injury,22.1,Pallor,22.1,Syncope,22.1
+855387,Injection site erythema,23,Injection site haematoma,23,Injection site swelling,23,Local reaction,23,,
+855388,Fall,23,Syncope,23,,,,,,
+855389,Pain,22.1,Pain in extremity,22.1,Tenderness,22.1,X-ray limb,22.1,,
+855392,Herpes zoster,22.1,,,,,,,,
+855393,Product administered to patient of inappropriate age,22.1,,,,,,,,
+855394,Extra dose administered,22.1,No adverse event,22.1,,,,,,
+855395,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855396,Chills,22.1,Fatigue,22.1,,,,,,
+855397,Exposure via skin contact,22.1,No adverse event,22.1,Syringe issue,22.1,Underdose,22.1,,
+855398,Pain,22.1,,,,,,,,
+855399,No adverse event,22.1,Wrong technique in product usage process,22.1,,,,,,
+855400,No adverse event,22.1,Product storage error,22.1,,,,,,
+855401,Vaccination site erythema,22.1,Vaccination site induration,22.1,Vaccination site inflammation,22.1,Vaccination site mass,22.1,,
+855402,Wrong product administered,22.1,,,,,,,,
+855416,No adverse event,22.1,Product quality issue,22.1,,,,,,
+855417,Deafness,22.1,,,,,,,,
+855418,Injection site pain,22.1,Injection site reaction,22.1,Loss of personal independence in daily activities,22.1,Mobility decreased,22.1,Musculoskeletal stiffness,22.1
+855418,Pain in extremity,22.1,Tenderness,22.1,,,,,,
+855419,Erythema,22.1,Peripheral swelling,22.1,Pyrexia,22.1,Screaming,22.1,,
+855420,Pruritus,22.1,,,,,,,,
+855421,Condition aggravated,22.1,Herpes zoster,22.1,Injection site reaction,22.1,,,,
+855422,Headache,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,Pyrexia,22.1,,
+855423,Hypoaesthesia,22.1,,,,,,,,
+855424,Abdominal discomfort,22.1,Chills,22.1,Fatigue,22.1,Headache,22.1,Influenza like illness,22.1
+855424,Pain,22.1,,,,,,,,
+855425,Chills,22.1,Fatigue,22.1,Myalgia,22.1,Pyrexia,22.1,,
+855426,Asthenia,22.1,Fatigue,22.1,Influenza like illness,22.1,Lethargy,22.1,Malaise,22.1
+855426,Mobility decreased,22.1,Tremor,22.1,,,,,,
+855427,Pyrexia,22.1,Screaming,22.1,Tremor,22.1,,,,
+855428,Adverse reaction,22.1,,,,,,,,
+855429,Abdominal discomfort,22.1,Headache,22.1,Injection site pain,22.1,,,,
+855430,Injection site pain,22.1,,,,,,,,
+855431,Erythema,22.1,Hypersensitivity,22.1,Pruritus,22.1,,,,
+855432,Exposure via skin contact,22.1,Immediate post-injection reaction,22.1,Occupational exposure to product,22.1,Skin laceration,22.1,Wound haemorrhage,22.1
+855434,Pain in extremity,22.1,Product supply issue,22.1,,,,,,
+855435,Headache,22.1,Nausea,22.1,Pyrexia,22.1,,,,
+855436,Abdominal discomfort,22.1,Dyspnoea,22.1,Feeling hot,22.1,Hyperhidrosis,22.1,Influenza like illness,22.1
+855436,Malaise,22.1,Migraine,22.1,Musculoskeletal pain,22.1,Palpitations,22.1,Tremor,22.1
+855436,Vaccine positive rechallenge,22.1,,,,,,,,
+855437,Influenza like illness,22.1,Malaise,22.1,,,,,,
+855438,Influenza like illness,22.1,Malaise,22.1,,,,,,
+855439,Insomnia,22.1,Loss of personal independence in daily activities,22.1,Pain in extremity,22.1,,,,
+855440,Adverse event,22.1,Documented hypersensitivity to administered product,22.1,,,,,,
+855441,Incorrect route of product administration,22.1,Injection site rash,22.1,,,,,,
+855442,Herpes zoster,22.1,,,,,,,,
+855443,Arthralgia,22.1,Chills,22.1,Headache,22.1,Myalgia,22.1,,
+855444,Chills,22.1,Diarrhoea,22.1,Dyspnoea,22.1,Eye swelling,22.1,Fatigue,22.1
+855444,Hyperhidrosis,22.1,Injection site erythema,22.1,Injection site pain,22.1,Sensitive skin,22.1,,
+855445,Injection site pain,22.1,Injection site warmth,22.1,Malaise,22.1,,,,
+855446,Pyrexia,22.1,Vomiting,22.1,,,,,,
+855447,Extra dose administered,22.1,,,,,,,,
+855448,Underdose,22.1,,,,,,,,
+855449,Chills,22.1,Headache,22.1,Nausea,22.1,Pain,22.1,,
+855450,Headache,22.1,Musculoskeletal stiffness,22.1,Pain,22.1,,,,
+855463,Balance disorder,22.1,Fibromyalgia,22.1,,,,,,
+855464,Incorrect route of product administration,22.1,No adverse event,22.1,,,,,,
+855465,Adverse event,22.1,Eye movement disorder,22.1,Eyelid function disorder,22.1,,,,
+855466,Arthralgia,22.1,Flank pain,22.1,Vaccine positive rechallenge,22.1,,,,
+855467,Pain,22.1,Peripheral swelling,22.1,Product administered at inappropriate site,22.1,,,,
+855468,Erythema,22.1,Headache,22.1,Injection site swelling,22.1,Night sweats,22.1,Pain,22.1
+855468,Pyrexia,22.1,,,,,,,,
+855469,Injected limb mobility decreased,22.1,Pain in extremity,22.1,Rash macular,22.1,,,,
+855470,Bedridden,22.1,Chills,22.1,Dizziness,22.1,Feeding disorder,22.1,Nausea,22.1
+855470,Tremor,22.1,,,,,,,,
+855471,Asthenia,22.1,Blood creatine phosphokinase increased,22.1,Gait inability,22.1,Laboratory test,22.1,Renal function test,22.1
+855472,Blood test,22.1,Canalith repositioning procedure,22.1,Computerised tomogram,22.1,Deafness unilateral,22.1,Electroencephalogram,22.1
+855472,Magnetic resonance imaging,22.1,,,,,,,,
+855473,Crying,22.1,Screaming,22.1,,,,,,
+855474,Cardiac pacemaker insertion,22.1,Injection site pain,22.1,Pain,22.1,Pyrexia,22.1,Soft tissue infection,22.1
+855476,Rash,22.1,,,,,,,,
+855477,Asthenia,22.1,Chills,22.1,Headache,22.1,Influenza like illness,22.1,Injection site nodule,22.1
+855477,Injection site pain,22.1,Injection site pruritus,22.1,Injection site streaking,22.1,Myalgia,22.1,Sinus headache,22.1
+855477,Tremor,22.1,,,,,,,,
+855478,Neck pain,22.1,Pain,22.1,Pain in extremity,22.1,,,,
+855479,Asthenia,22.1,Erythema,22.1,Fatigue,22.1,Pain,22.1,Pyrexia,22.1
+855479,Rash macular,22.1,Skin warm,22.1,,,,,,
+855480,Dizziness,22.1,Dysphonia,22.1,Headache,22.1,,,,
+855485,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855486,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855487,Muscular weakness,22.1,Neuropathy peripheral,22.1,Paraesthesia,22.1,,,,
+855488,Apgar score normal,22.1,Drug withdrawal syndrome neonatal,22.1,Foetal exposure during pregnancy,22.1,,,,
+855489,Exposure during pregnancy,22.1,Prenatal screening test,22.1,Urinary tract infection,22.1,,,,
+855490,Arthralgia,22.1,Biopsy artery,22.1,Fatigue,22.1,Headache,22.1,Influenza like illness,22.1
+855490,Laboratory test,22.1,Magnetic resonance imaging,22.1,Pain in jaw,22.1,Temporal arteritis,22.1,Visual impairment,22.1
+855491,Acoustic stimulation tests normal,22.1,Blood test,22.1,Dizziness,22.1,Influenza like illness,22.1,Lymphadenopathy,22.1
+855491,Musculoskeletal discomfort,22.1,Spinal X-ray,22.1,Ultrasound Doppler,22.1,Ultrasound scan,22.1,Vertigo,22.1
+855492,Chest discomfort,22.1,Feeling hot,22.1,Nausea,22.1,Vomiting,22.1,,
+855493,Joint effusion,22.1,Musculoskeletal discomfort,22.1,Musculoskeletal pain,22.1,Product administered at inappropriate site,22.1,,
+855494,Abdominal distension,22.1,Abdominal pain,22.1,Chills,22.1,Diarrhoea,22.1,Fatigue,22.1
+855494,Flatulence,22.1,Myalgia,22.1,,,,,,
+855495,Abdominal pain,22.1,Abdominal pain upper,22.1,Computerised tomogram abdomen normal,22.1,Fatigue,22.1,Full blood count normal,22.1
+855495,Headache,22.1,Herpes zoster,22.1,Hypoaesthesia,22.1,Influenza like illness,22.1,Myalgia,22.1
+855495,Ultrasound abdomen normal,22.1,,,,,,,,
+855496,Pain in extremity,22.1,,,,,,,,
+855498,Acoustic stimulation tests normal,22.1,Tinnitus,22.1,,,,,,
+855499,Immediate post-injection reaction,22.1,Pain in extremity,22.1,Rash,22.1,Rash erythematous,22.1,Rash papular,22.1
+855500,Blood pressure increased,22.1,Dyspnoea,22.1,Feeling cold,22.1,Injection site pain,22.1,Laboratory test normal,22.1
+855500,Thirst,22.1,Tremor,22.1,,,,,,
+855501,Injection site erythema,23,Injection site pain,23,,,,,,
+855502,Injection site pain,23,Musculoskeletal pain,23,Nausea,23,Neck pain,23,Pruritus,23
+855502,Rash,23,Urticaria,23,,,,,,
+855503,Groin pain,22.1,Insomnia,22.1,Limb discomfort,22.1,Muscle spasms,22.1,Muscular weakness,22.1
+855503,Myalgia,22.1,Pain,22.1,Pain in extremity,22.1,Walking aid user,22.1,,
+855504,Chills,22.1,Fatigue,22.1,Headache,22.1,Myalgia,22.1,,
+855505,Vomiting,22.1,,,,,,,,
+855507,No adverse event,22.1,Product storage error,22.1,,,,,,
+855508,Cough,22.1,Respiratory tract infection,22.1,,,,,,
+855509,Anaemia,22.1,Autoimmune haemolytic anaemia,22.1,Bilirubin conjugated increased,22.1,Blood bilirubin increased,22.1,Blood folate normal,22.1
+855509,Blood iron normal,22.1,Blood lactate dehydrogenase increased,22.1,Blood smear test abnormal,22.1,Cardiomegaly,22.1,Cold agglutinins positive,22.1
+855509,Complement factor C3,22.1,Computerised tomogram abdomen abnormal,22.1,Computerised tomogram pelvis abnormal,22.1,Computerised tomogram thorax abnormal,22.1,Coombs direct test,22.1
+855509,Coombs direct test negative,22.1,Cryoglobulins absent,22.1,Dyspnoea,22.1,Dyspnoea exertional,22.1,Electrophoresis protein normal,22.1
+855509,Flow cytometry,22.1,Haemoglobin decreased,22.1,Haptoglobin decreased,22.1,Hepatitis viral test negative,22.1,Immunology test,22.1
+855509,Jaundice,22.1,Lymphadenopathy mediastinal,22.1,Packed red blood cell transfusion,22.1,Parvovirus B19 test negative,22.1,Platelet count normal,22.1
+855509,Polymerase chain reaction,22.1,Red blood cell count decreased,22.1,Reticulocyte count normal,22.1,Spherocytic anaemia,22.1,Viral test negative,22.1
+855509,Vitamin B12 absorption test,22.1,Vitamin B12 normal,22.1,White blood cell count decreased,22.1,,,,
+855510,Specialist consultation,22.1,Thermal burn,22.1,,,,,,
+855511,Diabetic ketoacidosis,22.1,Food intolerance,22.1,Irritability,22.1,Near death experience,22.1,Speech disorder developmental,22.1
+855511,Type 1 diabetes mellitus,22.1,Urine output increased,22.1,Vomiting,22.1,,,,
+855512,Mobility decreased,22.1,Pain in extremity,22.1,,,,,,
+855513,Injection site nodule,22.1,Injection site pain,22.1,Injection site pruritus,22.1,Injection site swelling,22.1,Pain,22.1
+855513,Pyrexia,22.1,,,,,,,,
+855514,Unevaluable event,22.1,,,,,,,,
+855515,Immunisation,22.1,Syringe issue,22.1,Underdose,22.1,,,,
+855516,Debridement,22.1,Escharotomy,22.1,Injection site bruising,22.1,Injection site cyst,22.1,Injection site erythema,22.1
+855516,Injection site infection,22.1,Injection site vesicles,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,Pyrexia,22.1
+855516,Vaccination site eschar,22.1,,,,,,,,
+855517,Nasopharyngitis,22.1,Rash,22.1,Rash morbilliform,22.1,,,,
+855518,Altered state of consciousness,22.1,Cardiac monitoring normal,22.1,Endocrine test normal,22.1,Full blood count normal,22.1,Headache,22.1
+855518,Laboratory test normal,22.1,Loss of consciousness,22.1,Rash,22.1,Syncope,22.1,Thyroid function test normal,22.1
+855518,Urticaria,22.1,Visual impairment,22.1,,,,,,
+855519,Lip swelling,22.1,Swelling face,22.1,,,,,,
+855520,Hiccups,22.1,Increased appetite,22.1,Poor quality sleep,22.1,Pyrexia,22.1,Skin warm,22.1
+855521,Dizziness,22.1,Fatigue,22.1,Nausea,22.1,,,,
+855522,Injected limb mobility decreased,22.1,,,,,,,,
+855523,Eczema,22.1,Pyrexia,22.1,,,,,,
+855527,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855528,Eczema,22.1,,,,,,,,
+855529,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855530,Inappropriate schedule of product administration,22.1,,,,,,,,
+855531,Extra dose administered,22.1,No adverse event,22.1,Wrong product administered,22.1,,,,
+855532,Exposure during pregnancy,22.1,Overdose,22.1,Product administered to patient of inappropriate age,22.1,,,,
+855533,Incorrect route of product administration,22.1,No adverse event,22.1,,,,,,
+855534,No adverse event,22.1,Product preparation issue,22.1,,,,,,
+855535,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855536,Asthenia,22.1,Balance disorder,22.1,Dizziness,22.1,Nausea,22.1,Pain,22.1
+855536,Syncope,22.1,Vomiting,22.1,,,,,,
+855537,Crying,22.1,Ear infection,22.1,Pyrexia,22.1,Vomiting,22.1,,
+855538,Arthralgia,22.1,Back pain,22.1,Headache,22.1,Mobility decreased,22.1,Musculoskeletal pain,22.1
+855538,Neuralgia,22.1,Pain in extremity,22.1,Spinal X-ray abnormal,22.1,Spondylitis,22.1,,
+855539,C-reactive protein normal,22.1,Full blood count normal,22.1,Metabolic function test,22.1,Musculoskeletal pain,22.1,Periarthritis,22.1
+855539,Red blood cell sedimentation rate increased,22.1,Rotator cuff syndrome,22.1,Tendonitis,22.1,X-ray limb abnormal,22.1,,
+855540,Pain,22.1,Pain in extremity,22.1,,,,,,
+855541,Dizziness,22.1,Loss of consciousness,22.1,Syncope,22.1,,,,
+855542,Erythema,22.1,Rash erythematous,22.1,Rash pruritic,22.1,Skin lesion,22.1,,
+855543,Injection site mass,22.1,,,,,,,,
+855544,Chills,22.1,Diarrhoea,22.1,Eye swelling,22.1,Fatigue,22.1,Feeling cold,22.1
+855544,Hyperaesthesia,22.1,Hyperhidrosis,22.1,Injection site erythema,22.1,Injection site pain,22.1,Pain in extremity,22.1
+855544,Periorbital swelling,22.1,Respiration abnormal,22.1,,,,,,
+855545,Injected limb mobility decreased,22.1,Vaccination site pain,22.1,,,,,,
+855547,Underdose,22.1,,,,,,,,
+855548,Injection site erythema,22.1,Injection site inflammation,22.1,Injection site swelling,22.1,Pain,22.1,Vomiting,22.1
+855549,Joint range of motion decreased,22.1,Pain in extremity,22.1,,,,,,
+855550,Blister,22.1,Oedema peripheral,22.1,Rash,22.1,Urticaria,22.1,,
+855551,Rash,22.1,,,,,,,,
+855552,Hypoaesthesia,22.1,Pain,22.1,Paraesthesia,22.1,Shoulder injury related to vaccine administration,22.1,,
+855553,Erythema,22.1,Insomnia,22.1,Oedema peripheral,22.1,Pain in extremity,22.1,Peripheral swelling,22.1
+855554,Urticaria,22.1,,,,,,,,
+855555,Contusion,22.1,Dizziness,22.1,Fall,22.1,Loss of consciousness,22.1,Nausea,22.1
+855555,Spinal X-ray,22.1,Swelling face,22.1,Visual impairment,22.1,,,,
+855556,Urticaria,22.1,,,,,,,,
+855558,Cutaneous lupus erythematosus,22.1,,,,,,,,
+855559,Cough,22.1,Pruritus,22.1,Rash erythematous,22.1,Rhinorrhoea,22.1,,
+855560,Abdominal discomfort,22.1,Diarrhoea,22.1,Dysphagia,22.1,Fatigue,22.1,Pain,22.1
+855562,Chills,22.1,Cold sweat,22.1,Contusion,22.1,Erythema,22.1,Hyperhidrosis,22.1
+855562,Injection site pain,22.1,Nodule,22.1,Peripheral swelling,22.1,Pyrexia,22.1,Swelling,22.1
+855563,Blister,22.1,Erythema,22.1,Pain,22.1,Rash vesicular,22.1,,
+855564,Bone pain,22.1,Cough,22.1,Fatigue,22.1,Malaise,22.1,Oropharyngeal pain,22.1
+855564,Pain,22.1,,,,,,,,
+855565,Asthenia,22.1,Confusional state,22.1,Dizziness,22.1,,,,
+855566,Herpes zoster,22.1,,,,,,,,
+855567,Fatigue,22.1,Nausea,22.1,Pain,22.1,Vomiting,22.1,,
+855568,Inappropriate schedule of product administration,22.1,,,,,,,,
+855569,Anaphylactic reaction,22.1,Exposure during pregnancy,22.1,Food allergy,22.1,Intensive care,22.1,Oral allergy syndrome,22.1
+855575,Arteriosclerosis,22.1,Asthenia,22.1,Balance disorder,22.1,Coronary artery bypass,22.1,Costochondritis,22.1
+855575,Heart injury,22.1,Herpes zoster,22.1,Nerve injury,22.1,Pain,22.1,Post herpetic neuralgia,22.1
+855575,Skin lesion,22.1,,,,,,,,
+855576,Amaurosis fugax,22.1,Cerebrovascular accident,22.1,Hemiparesis,22.1,Hypoaesthesia,22.1,Keratitis,22.1
+855576,Visual impairment,22.1,,,,,,,,
+855577,No adverse event,22.1,Product storage error,22.1,,,,,,
+855578,Incorrect route of product administration,22.1,No adverse event,22.1,,,,,,
+855580,Erythema,22.1,Pain,22.1,Peripheral swelling,22.1,Pyrexia,22.1,,
+855582,Feeling cold,22.1,Headache,22.1,Pyrexia,22.1,,,,
+855583,Burning sensation,22.1,Culture negative,22.1,Dermatitis acneiform,22.1,Fatigue,22.1,Influenza like illness,22.1
+855583,Nasal discomfort,22.1,Occupational exposure to product,22.1,Oropharyngeal pain,22.1,Pain,22.1,Paraesthesia,22.1
+855583,Pruritus,22.1,Rash,22.1,Rash vesicular,22.1,Sinusitis,22.1,Skin fissures,22.1
+855584,Biopsy site unspecified abnormal,22.1,Dermatitis contact,22.1,Hypersensitivity,22.1,Urticaria,22.1,,
+855585,Arthralgia,22.1,Bursitis,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Musculoskeletal pain,22.1
+855586,Herpes zoster,22.1,Inappropriate schedule of product administration,22.1,,,,,,
+855587,Pyrexia,22.1,,,,,,,,
+855588,Back pain,22.1,Cardiac stress test abnormal,22.1,Erythema,22.1,Myalgia,22.1,Pain in extremity,22.1
+855589,Periorbital swelling,22.1,Rash,22.1,Somnolence,22.1,Vaccine positive rechallenge,22.1,,
+855590,No adverse event,22.1,Wrong product administered,22.1,,,,,,
+855591,Abdominal pain upper,22.1,Influenza like illness,22.1,Injection site pain,22.1,Lip swelling,22.1,Pain,22.1
+855591,Pyrexia,22.1,Rash,22.1,Rash pruritic,22.1,,,,
+855593,Product label issue,23,,,,,,,,
+855594,Nasal congestion,23,Nasal obstruction,23,Oxygen saturation decreased,23,Respiratory rate increased,23,,
+855596,Immediate post-injection reaction,22.1,Injected limb mobility decreased,22.1,Injection site pain,22.1,Periarthritis,22.1,Product administered at inappropriate site,22.1
+855597,Asthenia,22.1,Chills,22.1,Decreased appetite,22.1,Feeling abnormal,22.1,Night sweats,22.1
+855597,Pyrexia,22.1,,,,,,,,
+855598,Abdominal discomfort,22.1,Fatigue,22.1,Headache,22.1,Injection site swelling,22.1,Myalgia,22.1
+855598,Pain,22.1,Pyrexia,22.1,,,,,,
+855599,Incorrect product formulation administered,23,,,,,,,,
+855607,Blister,22.1,Eye pain,22.1,Vaccine positive rechallenge,22.1,,,,
+855608,Dizziness,22.1,Influenza like illness,22.1,Nausea,22.1,Pruritus,22.1,Vomiting,22.1
+855609,Arthralgia,22.1,Bone pain,22.1,Fatigue,22.1,Headache,22.1,Influenza like illness,22.1
+855609,Pyrexia,22.1,,,,,,,,
+855610,Death,22.1,Respiratory failure,22.1,Stevens-Johnson syndrome,22.1,Toxic epidermal necrolysis,22.1,,
+855611,Death,22.1,Skin exfoliation,22.1,Toxic epidermal necrolysis,22.1,,,,
+855613,Abdominal X-ray,22.1,Asthenia,22.1,Central nervous system lesion,22.1,Chest X-ray,22.1,Communication disorder,22.1
+855613,Computerised tomogram head,22.1,Confusional state,22.1,Cytology,22.1,Death,22.1,Dysphagia,22.1
+855613,General physical health deterioration,22.1,Laboratory test,22.1,Magnetic resonance imaging brain abnormal,22.1,Neoplasm,22.1,Skin lesion,22.1
+855613,Somnolence,22.1,,,,,,,,
+855614,Erythema,22.1,Pruritus,22.1,,,,,,
+855615,Electroencephalogram abnormal,22.1,Epilepsy,22.1,Migraine with aura,22.1,Ophthalmological examination abnormal,22.1,Seizure,22.1
+855616,Dizziness,22.1,Fatigue,22.1,Headache,22.1,Myalgia,22.1,Nausea,22.1
+855616,Pyrexia,22.1,,,,,,,,
+855617,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855618,No adverse event,22.1,,,,,,,,
+855619,Chills,22.1,Pain,22.1,Peripheral swelling,22.1,Pyrexia,22.1,,
+855620,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855621,Rash,22.1,Rash erythematous,22.1,Rash pruritic,22.1,,,,
+855622,Influenza like illness,23,,,,,,,,
+855623,Electromyogram normal,23,Hypoaesthesia,23,Limb discomfort,23,Nerve injury,23,Pain,23
+855623,Paraesthesia,23,,,,,,,,
+855624,Injection site reaction,23,Rash,23,,,,,,
+855625,Anaphylactic reaction,23,Rash,23,,,,,,
+855626,Electromyogram,22.1,Magnetic resonance imaging abdominal,22.1,Magnetic resonance imaging brain,22.1,Magnetic resonance imaging spinal,22.1,Myelitis transverse,22.1
+855626,Neurological examination,22.1,,,,,,,,
+855627,Blister,22.1,Headache,22.1,Periorbital pain,22.1,,,,
+855628,Altered state of consciousness,23,Burning sensation,23,Diarrhoea,23,Dysstasia,23,Feeling cold,23
+855628,Muscle strength abnormal,23,Tremor,23,,,,,,
+855629,Muscle spasms,22.1,Nausea,22.1,Pyrexia,22.1,,,,
+855630,Rash,22.1,Rash maculo-papular,22.1,Rash pruritic,22.1,Urticaria,22.1,,
+855631,Chills,22.1,Fatigue,22.1,Myalgia,22.1,Nausea,22.1,Pyrexia,22.1
+855632,Swelling face,22.1,Urticaria,22.1,,,,,,
+855633,Blindness,22.1,Computerised tomogram,22.1,Lumbar puncture,22.1,Magnetic resonance imaging,22.1,Optic nerve injury,22.1
+855634,Injection site erythema,22.1,Injection site nodule,22.1,Injection site warmth,22.1,,,,
+855640,Aphonia,22.1,Dysphonia,22.1,Laboratory test,22.1,Nasopharyngitis,22.1,Oropharyngeal pain,22.1
+855641,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855642,Herpes zoster,22.1,,,,,,,,
+855643,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855644,Feeling of body temperature change,22.1,Gait disturbance,22.1,Pain,22.1,Urinary incontinence,22.1,,
+855645,Chills,22.1,Erythema,22.1,Feeling hot,22.1,Inflammation,22.1,Injection site erythema,22.1
+855645,Injection site warmth,22.1,Myalgia,22.1,Pruritus,22.1,Rash,22.1,Rash erythematous,22.1
+855645,Rash papular,22.1,Rash pruritic,22.1,Swelling,22.1,,,,
+855646,Erythema,22.1,Feeling hot,22.1,Swelling,22.1,Tenderness,22.1,,
+855647,Fatigue,22.1,Pain,22.1,,,,,,
+855648,Erythema,22.1,Mobility decreased,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,,
+855649,Nausea,22.1,Pain,22.1,Pyrexia,22.1,,,,
+855650,Musculoskeletal pain,22.1,Neck pain,22.1,Pain in extremity,22.1,,,,
+855651,Laboratory test normal,22.1,Respiratory arrest,22.1,Seizure like phenomena,22.1,Tension,22.1,,
+855652,Chills,22.1,Feeling cold,22.1,,,,,,
+855653,Headache,22.1,,,,,,,,
+855654,Periarthritis,22.1,,,,,,,,
+855655,Acute lymphocytic leukaemia,22.1,Asthenia,22.1,Blast cells present,22.1,Chemotherapy,22.1,Decreased appetite,22.1
+855655,Ear infection,22.1,Fatigue,22.1,Infection,22.1,Influenza virus test negative,22.1,Mononucleosis heterophile test negative,22.1
+855655,Pyrexia,22.1,Upper respiratory tract infection,22.1,Urinary tract infection,22.1,Urine analysis abnormal,22.1,,
+855656,Dysphonia,22.1,Injection site pain,22.1,Musculoskeletal chest pain,22.1,Nausea,22.1,Painful respiration,22.1
+855656,Pyrexia,22.1,,,,,,,,
+855657,Arthralgia,22.1,Chills,22.1,Fatigue,22.1,Immediate post-injection reaction,22.1,Myalgia,22.1
+855657,Pain,22.1,Pyrexia,22.1,Sinus headache,22.1,,,,
+855658,Injection site erythema,22.1,Injection site warmth,22.1,Paraesthesia,22.1,Rash,22.1,,
+855659,Erythema,22.1,Facial paralysis,22.1,Malaise,22.1,,,,
+855663,No adverse event,22.1,Product storage error,22.1,,,,,,
+855664,Deafness neurosensory,22.1,Sudden hearing loss,22.1,Tinnitus,22.1,,,,
+855665,Blindness unilateral,22.1,Cardiac failure congestive,22.1,Macular oedema,22.1,Retinal vein occlusion,22.1,Visual impairment,22.1
+855667,Circumstance or information capable of leading to medication error,22.1,Underdose,22.1,,,,,,
+855668,Injection site pruritus,22.1,Injection site swelling,22.1,Injection site urticaria,22.1,Pallor,22.1,,
+855669,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855670,Injection site erythema,22.1,Muscle twitching,22.1,,,,,,
+855671,Rash erythematous,22.1,Skin warm,22.1,,,,,,
+855672,Neuralgia,22.1,,,,,,,,
+855673,Feeding disorder,22.1,Nausea,22.1,Vertigo,22.1,Vomiting,22.1,,
+855674,Extra dose administered,22.1,No adverse event,22.1,,,,,,
+855675,Computerised tomogram abdomen,22.1,Contusion,22.1,Gingival bleeding,22.1,Immune thrombocytopenic purpura,22.1,Laboratory test,22.1
+855675,Menorrhagia,22.1,Platelet count decreased,22.1,Ultrasound scan vagina,22.1,,,,
+855682,No adverse event,22.1,Product storage error,22.1,,,,,,
+855683,Erythema multiforme,22.1,,,,,,,,
+855684,Impaired work ability,22.1,Injection site pain,22.1,Nausea,22.1,Pyrexia,22.1,,
+855685,Pain,22.1,Pain in extremity,22.1,,,,,,
+855686,Arthralgia,22.1,Chills,22.1,Headache,22.1,Insomnia,22.1,Musculoskeletal pain,22.1
+855686,Myalgia,22.1,Neck pain,22.1,Pain,22.1,Pain in extremity,22.1,Tenderness,22.1
+855687,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855688,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855689,Urticaria,22.1,,,,,,,,
+855690,Axillary mass,22.1,Breast mass,22.1,Decreased appetite,22.1,Injection site discolouration,22.1,Injection site pain,22.1
+855690,Injection site reaction,22.1,Joint stiffness,22.1,Musculoskeletal stiffness,22.1,Nausea,22.1,Oedema peripheral,22.1
+855690,Pyrexia,22.1,Skin discolouration,22.1,Tenderness,22.1,,,,
+855691,Chest X-ray,22.1,Chills,22.1,Computerised tomogram head,22.1,Electrocardiogram,22.1,Headache,22.1
+855691,Migraine,22.1,Pain,22.1,Pyrexia,22.1,Vomiting,22.1,,
+855692,Abdominal pain,22.1,Decreased appetite,22.1,Diarrhoea,22.1,Nausea,22.1,,
+855693,Injected limb mobility decreased,22.1,Injection site pain,22.1,Pain in extremity,22.1,,,,
+855694,Pyrexia,22.1,,,,,,,,
+855695,Chills,22.1,Malaise,22.1,Tremor,22.1,,,,
+855696,Chills,22.1,Diarrhoea,22.1,Tremor,22.1,,,,
+855697,Contusion,22.1,Immediate post-injection reaction,22.1,,,,,,
+855698,Arthralgia,22.1,Hyperhidrosis,22.1,Malaise,22.1,Pain,22.1,Sensitive skin,22.1
+855699,Mobility decreased,22.1,Pain,22.1,,,,,,
+855700,Injection site bruising,22.1,Injection site discolouration,22.1,,,,,,
+855701,Erythema,22.1,Rash,22.1,Swelling,22.1,,,,
+855702,Influenza like illness,22.1,Muscle spasms,22.1,Paraesthesia,22.1,Tachycardia,22.1,,
+855703,Injection site erythema,22.1,Injection site pain,22.1,Injection site pruritus,22.1,Injection site rash,22.1,Injection site warmth,22.1
+855703,Rash,22.1,,,,,,,,
+855704,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855705,Asthenia,22.1,Body temperature increased,22.1,Inflammation,22.1,Pain in extremity,22.1,Peripheral swelling,22.1
+855706,Expired product administered,22.1,,,,,,,,
+855707,Fatigue,22.1,Hypersomnia,22.1,Injection site erythema,22.1,Irritability,22.1,Pyrexia,22.1
+855708,Back pain,22.1,,,,,,,,
+855709,Pruritus,22.1,Rash,22.1,,,,,,
+855710,Injection site bruising,22.1,,,,,,,,
+855711,Dizziness,22.1,Vomiting,22.1,,,,,,
+855712,Pain in extremity,22.1,Periarthritis,22.1,,,,,,
+855713,Crying,22.1,Eyelid ptosis,22.1,Food refusal,22.1,Gait disturbance,22.1,Influenza virus test negative,22.1
+855713,Insomnia,22.1,Irritability,22.1,Lethargy,22.1,Pyrexia,22.1,Sleep disorder,22.1
+855714,Back pain,22.1,Injected limb mobility decreased,22.1,Injection site pain,22.1,Injection site swelling,22.1,Pain,22.1
+855715,Disorientation,22.1,Musculoskeletal stiffness,22.1,Seizure like phenomena,22.1,Syncope,22.1,Tremor,22.1
+855715,Unresponsive to stimuli,22.1,,,,,,,,
+855716,Injection site pain,22.1,,,,,,,,
+855725,Herpes zoster,22.1,,,,,,,,
+855726,Cellulitis,22.1,Herpes zoster,22.1,Pain,22.1,Rash,22.1,,
+855727,Product storage error,22.1,,,,,,,,
+855728,No adverse event,22.1,Product storage error,22.1,,,,,,
+855729,Incorrect route of product administration,22.1,No adverse event,22.1,,,,,,
+855730,Adverse drug reaction,22.1,Influenza,22.1,Pain,22.1,Vaccination failure,22.1,,
+855731,Fatigue,22.1,Headache,22.1,Injection site erythema,22.1,Injection site mass,22.1,Injection site pruritus,22.1
+855732,Adverse drug reaction,22.1,,,,,,,,
+855733,Immediate post-injection reaction,22.1,Injection site pain,22.1,,,,,,
+855734,Mobility decreased,22.1,Musculoskeletal pain,22.1,Pain in extremity,22.1,,,,
+855735,Diarrhoea,22.1,,,,,,,,
+855736,Diplopia,22.1,,,,,,,,
+855737,Musculoskeletal stiffness,22.1,Pain in extremity,22.1,,,,,,
+855738,Dizziness,22.1,Headache,22.1,Nausea,22.1,Pain in extremity,22.1,Pyrexia,22.1
+855739,Cellulitis,23,Injection site erythema,23,Injection site swelling,23,Pain,23,Tenderness,23
+855740,Injection site pain,23,Lymph node pain,23,Lymphadenopathy,23,Pyrexia,23,Tenderness,23
+855741,Limb mass,22.1,Tenderness,22.1,,,,,,
+855742,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855743,Injected limb mobility decreased,23,Injection site erythema,23,Injection site induration,23,,,,
+855747,Fatigue,22.1,Pain,22.1,Pyrexia,22.1,,,,
+855748,Abdominal discomfort,22.1,Chills,22.1,Headache,22.1,,,,
+855749,Asthenia,22.1,Musculoskeletal discomfort,22.1,,,,,,
+855750,Rash,22.1,,,,,,,,
+855751,Circumstance or information capable of leading to medication error,22.1,Ear infection,22.1,,,,,,
+855752,Erythema,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site warmth,22.1,Skin warm,22.1
+855753,Peripheral swelling,22.1,Rash,22.1,,,,,,
+855754,Muscle twitching,22.1,,,,,,,,
+855755,Headache,22.1,Impaired work ability,22.1,Malaise,22.1,,,,
+855756,Product preparation issue,22.1,,,,,,,,
+855757,Erythema,23,Headache,23,Pruritus,23,Rash,23,,
+855758,Decreased appetite,22.1,Headache,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Nausea,22.1
+855758,Pain,22.1,,,,,,,,
+855759,Injection site reaction,22.1,Injection site warmth,22.1,Pruritus,22.1,Rash,22.1,Rash vesicular,22.1
+855759,Urticaria,22.1,,,,,,,,
+855760,Computerised tomogram normal,22.1,Mobility decreased,22.1,Pain in extremity,22.1,Sleep disorder,22.1,,
+855761,Eye movement disorder,22.1,Immediate post-injection reaction,22.1,Loss of consciousness,22.1,Muscle spasms,22.1,Pallor,22.1
+855761,Presyncope,22.1,Tension,22.1,Urinary incontinence,22.1,,,,
+855762,Limb discomfort,22.1,Shoulder injury related to vaccine administration,22.1,,,,,,
+855778,Pain in extremity,22.1,,,,,,,,
+855779,Fatigue,22.1,Pain,22.1,,,,,,
+855780,Product storage error,22.1,,,,,,,,
+855781,Blepharospasm,22.1,Chills,22.1,Dizziness,22.1,Miosis,22.1,Pain,22.1
+855781,Pyrexia,22.1,,,,,,,,
+855782,Rash maculo-papular,22.1,Urticaria,22.1,,,,,,
+855783,Erythema,22.1,Limb discomfort,22.1,Pain,22.1,,,,
+855785,Erythema multiforme,22.1,,,,,,,,
+855786,Abdominal pain upper,22.1,Dizziness,22.1,,,,,,
+855787,Cough,22.1,Dizziness,22.1,Ear pain,22.1,Headache,22.1,Injection site haemorrhage,22.1
+855787,Injection site pain,22.1,Pyrexia,22.1,Vomiting,22.1,,,,
+855788,Injection site discomfort,22.1,Injection site pain,22.1,Product administered at inappropriate site,22.1,,,,
+855789,Blood glucose increased,23,Blood lactic acid normal,23,Febrile convulsion,23,Influenza A virus test negative,23,Influenza B virus test,23
+855789,Influenza virus test negative,23,Pyrexia,23,,,,,,
+855790,Erythema,22.1,Pustule,22.1,Skin warm,22.1,Swelling,22.1,,
+855791,Guillain-Barre syndrome,22.1,,,,,,,,
+855795,Erythema,22.1,Lymphadenopathy,22.1,Peripheral swelling,22.1,,,,
+855796,Extra dose administered,22.1,,,,,,,,
+855797,Impaired driving ability,22.1,Pain in extremity,22.1,,,,,,
+855798,Asthenia,22.1,Chills,22.1,Condition aggravated,22.1,Cyclic vomiting syndrome,22.1,Diarrhoea,22.1
+855798,Fatigue,22.1,Feeling abnormal,22.1,Genital herpes,22.1,Headache,22.1,Palpitations,22.1
+855799,Chills,22.1,Lethargy,22.1,Pain,22.1,,,,
+855800,Immediate post-injection reaction,22.1,Injection site bruising,22.1,Injection site mass,22.1,Insomnia,22.1,Lip swelling,22.1
+855800,Nausea,22.1,Pain in extremity,22.1,,,,,,
+855801,Chills,22.1,Pain,22.1,Pyrexia,22.1,Tremor,22.1,,
+855802,Injection site erythema,23,Injection site swelling,23,Local reaction,23,,,,
+855803,Injection site swelling,22.1,Injection site warmth,22.1,,,,,,
+855804,Injection site erythema,22.1,Injection site induration,22.1,Injection site pain,22.1,Injection site swelling,22.1,,
+855805,Injection site erythema,23,Injection site pruritus,23,Injection site warmth,23,,,,
+855806,Guillain-Barre syndrome,22.1,,,,,,,,
+855807,Injection site erythema,23,Injection site pain,23,Injection site swelling,23,,,,
+855808,Chills,22.1,Erythema,22.1,Influenza,22.1,Mobility decreased,22.1,Nausea,22.1
+855808,Night sweats,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,Pyrexia,22.1,Skin warm,22.1
+855811,Anxiety,22.1,Infection via vaccinee,22.1,Influenza like illness,22.1,Obsessive-compulsive disorder,22.1,Oropharyngeal pain,22.1
+855811,Paediatric autoimmune neuropsychiatric disorders associated with streptococcal infection,22.1,Rash,22.1,Scarlet fever,22.1,,,,
+855817,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855819,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855820,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855821,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855822,No adverse event,22.1,Product preparation error,22.1,,,,,,
+855823,Mobility decreased,22.1,Pain in extremity,22.1,Tenderness,22.1,,,,
+855824,No adverse event,22.1,Product preparation error,22.1,,,,,,
+855825,No adverse event,22.1,Product preparation error,22.1,,,,,,
+855826,Product preparation issue,22.1,,,,,,,,
+855827,Injection site erythema,23,Injection site mass,23,Injection site pain,23,Injection site warmth,23,,
+855828,Product preparation issue,22.1,,,,,,,,
+855829,Product preparation issue,22.1,,,,,,,,
+855830,Blood test,22.1,Cardiac monitoring normal,22.1,Cervical vertebral fracture,22.1,Echocardiogram normal,22.1,Glomerular filtration rate normal,22.1
+855830,Loss of consciousness,22.1,Positron emission tomogram normal,22.1,Road traffic accident,22.1,Scan myocardial perfusion normal,22.1,Surgery,22.1
+855830,Syncope,22.1,,,,,,,,
+855831,Erythema,22.1,Inflammation,22.1,Injected limb mobility decreased,22.1,Pain in extremity,22.1,Peripheral swelling,22.1
+855831,Skin warm,22.1,,,,,,,,
+855832,Influenza,22.1,,,,,,,,
+855833,Injected limb mobility decreased,22.1,Magnetic resonance imaging,22.1,Nerve conduction studies,22.1,Neuralgic amyotrophy,22.1,,
+855834,Lip swelling,22.1,Middle insomnia,22.1,Swelling face,22.1,Swelling of eyelid,22.1,,
+855835,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1,Pyrexia,22.1
+855836,Bursitis,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,Joint range of motion decreased,22.1
+855837,Headache,22.1,Syncope,22.1,Tinnitus,22.1,,,,
+855838,Ear swelling,22.1,Hypoacusis,22.1,Lip swelling,22.1,Pyrexia,22.1,Swelling face,22.1
+855839,Headache,22.1,Middle insomnia,22.1,Nausea,22.1,Vomiting,22.1,,
+855840,Erythema,22.1,Pruritus,22.1,Swelling,22.1,,,,
+855841,Arthralgia,22.1,Asthenia,22.1,Back disorder,22.1,Back pain,22.1,Blood test normal,22.1
+855841,Decreased appetite,22.1,Dizziness,22.1,Dyspnoea,22.1,Exercise tolerance decreased,22.1,Fatigue,22.1
+855841,Feeling cold,22.1,Gait disturbance,22.1,Hypersomnia,22.1,Impaired driving ability,22.1,Impaired work ability,22.1
+855841,Intervertebral disc protrusion,22.1,Ligament sprain,22.1,Limb discomfort,22.1,Loss of personal independence in daily activities,22.1,Magnetic resonance imaging spinal abnormal,22.1
+855841,Mobility decreased,22.1,Muscular weakness,22.1,Pain,22.1,Pallor,22.1,Peripheral coldness,22.1
+855841,Tooth extraction,22.1,Tooth infection,22.1,Weight decreased,22.1,,,,
+855842,Extra dose administered,22.1,,,,,,,,
+855843,Pain,22.1,Pain in extremity,22.1,,,,,,
+855844,Syncope,22.1,,,,,,,,
+855845,Antinuclear antibody positive,22.1,Arthralgia,22.1,Blood iron normal,22.1,Blood lactate dehydrogenase normal,22.1,Blood phosphorus normal,22.1
+855845,C-reactive protein normal,22.1,Full blood count normal,22.1,Glycosylated haemoglobin normal,22.1,Inflammation,22.1,Insomnia,22.1
+855845,Laboratory test normal,22.1,Lipids normal,22.1,Metabolic function test normal,22.1,Musculoskeletal stiffness,22.1,Red blood cell sedimentation rate normal,22.1
+855845,Rheumatoid factor negative,22.1,Serum ferritin normal,22.1,,,,,,
+855846,Cold sweat,22.1,Dizziness,22.1,Pallor,22.1,Vomiting,22.1,,
+855847,Chills,22.1,Headache,22.1,Muscle spasms,22.1,Myalgia,22.1,Nausea,22.1
+855849,Erythema,22.1,Peripheral swelling,22.1,Skin warm,22.1,Tenderness,22.1,,
+855850,Injection site erythema,22.1,Injection site pruritus,22.1,,,,,,
+855851,Pruritus,22.1,Rash,22.1,,,,,,
+855852,Axillary pain,22.1,Erythema,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1
+855852,Myalgia,22.1,Oedema peripheral,22.1,,,,,,
+855853,Vision blurred,22.1,,,,,,,,
+855854,Injection site erythema,22.1,Injection site pain,22.1,,,,,,
+855855,Blood test normal,22.1,Chest X-ray normal,22.1,Computerised tomogram normal,22.1,Electroencephalogram,22.1,Lumbar puncture normal,22.1
+855855,Magnetic resonance imaging normal,22.1,Seizure,22.1,,,,,,
+855856,Asthenia,22.1,CSF protein increased,22.1,Chest X-ray normal,22.1,Computerised tomogram normal,22.1,Dysstasia,22.1
+855856,Fall,22.1,Fatigue,22.1,Gait disturbance,22.1,Guillain-Barre syndrome,22.1,Headache,22.1
+855856,Hypoaesthesia,22.1,Immunoglobulin therapy,22.1,Lactation disorder,22.1,Loss of personal independence in daily activities,22.1,Lumbar puncture abnormal,22.1
+855856,Magnetic resonance imaging normal,22.1,Maternal exposure during breast feeding,22.1,Paraesthesia,22.1,,,,
+855857,Peripheral swelling,22.1,,,,,,,,
+855858,Swelling face,22.1,,,,,,,,
+855859,Burning sensation,22.1,Erythema,22.1,,,,,,
+855860,Inappropriate schedule of product administration,22.1,,,,,,,,
+855861,Back pain,22.1,Emotional distress,22.1,,,,,,
+855862,Chronic inflammatory demyelinating polyradiculoneuropathy,22.1,,,,,,,,
+855863,Mobility decreased,22.1,Pain,22.1,,,,,,
+855864,Asthenia,22.1,Chills,22.1,Dizziness,22.1,Fatigue,22.1,Fear,22.1
+855864,Feeling hot,22.1,Hyperhidrosis,22.1,Malaise,22.1,Migraine,22.1,Visual impairment,22.1
+855864,Vomiting,22.1,,,,,,,,
+855865,Injection site pain,22.1,Pain,22.1,,,,,,
+855866,Pyrexia,22.1,Status epilepticus,22.1,,,,,,
+855867,Injection site erythema,22.1,Injection site mass,22.1,Injection site pruritus,22.1,Injection site swelling,22.1,,
+855868,Crying,22.1,Diarrhoea,22.1,Eczema,22.1,Electroencephalogram,22.1,Haematochezia,22.1
+855868,Screaming,22.1,Seizure,22.1,,,,,,
+855869,Crying,22.1,Hyperacusis,22.1,Injection site erythema,22.1,Injection site induration,22.1,Injection site nodule,22.1
+855869,Injection site pain,22.1,Injection site rash,22.1,Injection site reaction,22.1,Injection site warmth,22.1,Irritability,22.1
+855869,Screaming,22.1,Urticaria,22.1,,,,,,
+855870,Abdominal pain upper,22.1,Agitation,22.1,Crying,22.1,Hyperacusis,22.1,Injection site erythema,22.1
+855870,Injection site induration,22.1,Injection site pain,22.1,Injection site rash,22.1,Injection site reaction,22.1,Injection site warmth,22.1
+855870,Neck pain,22.1,Screaming,22.1,Urticaria,22.1,,,,
+855871,Abdominal pain upper,22.1,Asthenia,22.1,Diarrhoea,22.1,Fatigue,22.1,Headache,22.1
+855871,Myalgia,22.1,Nausea,22.1,,,,,,
+855876,Blindness,22.1,Burning sensation,22.1,Deafness unilateral,22.1,Herpes zoster,22.1,Otitis media,22.1
+855876,Posterior capsule opacification,22.1,Rash pruritic,22.1,Tinnitus,22.1,Vitreous detachment,22.1,,
+855877,Burning sensation,22.1,Cystitis,22.1,Eye pain,22.1,Eye swelling,22.1,Haematuria,22.1
+855877,Herpes zoster,22.1,Neuralgia,22.1,Pain,22.1,Periorbital cellulitis,22.1,VIth nerve paralysis,22.1
+855878,Expired product administered,22.1,,,,,,,,
+855879,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855880,Expired product administered,22.1,,,,,,,,
+855881,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+855882,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855883,Inappropriate schedule of product administration,22.1,,,,,,,,
+855884,Extra dose administered,22.1,,,,,,,,
+855885,Blood glucose increased,22.1,,,,,,,,
+855886,Blood glucose increased,22.1,,,,,,,,
+855887,No adverse event,22.1,Product storage error,22.1,,,,,,
+855888,No adverse event,22.1,Product storage error,22.1,,,,,,
+855889,Blood urine present,22.1,Chest X-ray abnormal,22.1,Cough,22.1,Dysstasia,22.1,Fall,22.1
+855889,Malaise,22.1,Oropharyngeal discomfort,22.1,Pneumonia,22.1,,,,
+855890,Blood pressure increased,22.1,Chills,22.1,Headache,22.1,Insomnia,22.1,Muscle twitching,22.1
+855890,Nausea,22.1,Pain,22.1,Pain in extremity,22.1,Pyrexia,22.1,,
+855891,Erythema,22.1,Limb discomfort,22.1,Pain,22.1,,,,
+855892,Injection site pain,22.1,,,,,,,,
+855893,Injection site pain,22.1,,,,,,,,
+855894,Chills,22.1,Pain,22.1,,,,,,
+855895,Erythema,22.1,Peripheral swelling,22.1,Pruritus,22.1,,,,
+855899,Dizziness,22.1,Erythema,22.1,Headache,22.1,Paraesthesia,22.1,,
+855900,Chills,22.1,Fatigue,22.1,Headache,22.1,Nausea,22.1,Pain,22.1
+855900,Pyrexia,22.1,Sinusitis,22.1,,,,,,
+855901,Chills,22.1,Fatigue,22.1,Headache,22.1,Nausea,22.1,Pain,22.1
+855901,Pyrexia,22.1,Sinusitis,22.1,,,,,,
+855902,Dizziness,22.1,Dyspnoea,22.1,Nausea,22.1,Wheezing,22.1,,
+855903,Injection site pain,22.1,Pain in extremity,22.1,,,,,,
+855904,Feeling abnormal,22.1,Immediate post-injection reaction,22.1,Seizure,22.1,Syncope,22.1,,
+855905,Fontanelle bulging,23,Rash,23,,,,,,
+855906,Abdominal discomfort,22.1,Diarrhoea,22.1,Fatigue,22.1,Injection site pain,22.1,Retching,22.1
+855907,Loss of consciousness,22.1,Syncope,22.1,,,,,,
+855908,Induration,22.1,Joint range of motion decreased,22.1,Pain,22.1,,,,
+855909,Culture throat,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site warmth,22.1,Pyrexia,22.1
+855909,Streptococcus test,22.1,Streptococcus test negative,22.1,,,,,,
+855910,Feeling hot,22.1,,,,,,,,
+855924,Abdominal distension,22.1,Areflexia,22.1,Asthenia,22.1,Ataxia,22.1,CSF test normal,22.1
+855924,Computerised tomogram head normal,22.1,Demyelinating polyneuropathy,22.1,Dysphagia,22.1,Electromyogram abnormal,22.1,Endotracheal intubation,22.1
+855924,Gastrostomy,22.1,Guillain-Barre syndrome,22.1,Immunoglobulin therapy,22.1,Mechanical ventilation,22.1,Muscular weakness,22.1
+855924,Paraesthesia,22.1,Plasmapheresis,22.1,Respiratory failure,22.1,Respiratory muscle weakness,22.1,Tracheostomy,22.1
+855929,Arthralgia,22.1,Asthenia,22.1,Bedridden,22.1,Feeling abnormal,22.1,Gait disturbance,22.1
+855929,Muscular weakness,22.1,Pain in extremity,22.1,Vaccine positive rechallenge,22.1,,,,
+855930,Herpes zoster,22.1,,,,,,,,
+855931,Herpes zoster,22.1,,,,,,,,
+855932,Rash,22.1,,,,,,,,
+855933,Chills,22.1,Flushing,22.1,Myalgia,22.1,,,,
+855934,Headache,22.1,Vomiting,22.1,,,,,,
+855935,Arthralgia,22.1,Bronchospasm,22.1,Dyspnoea,22.1,Feeling abnormal,22.1,Middle insomnia,22.1
+855935,Mobility decreased,22.1,Pain in extremity,22.1,,,,,,
+855936,Prostatic specific antigen increased,22.1,,,,,,,,
+855937,Injection site necrosis,22.1,,,,,,,,
+855938,Pain in extremity,22.1,,,,,,,,
+855939,Immediate post-injection reaction,22.1,Injection site pain,22.1,Musculoskeletal pain,22.1,Pain,22.1,Pain in extremity,22.1
+855940,Injection site pain,22.1,Tendonitis,22.1,,,,,,
+855941,Feeling hot,22.1,Headache,22.1,,,,,,
+855942,Dizziness,22.1,Nausea,22.1,,,,,,
+855943,Arthralgia,22.1,Myalgia,22.1,,,,,,
+855944,Asthenia,22.1,Hypotension,22.1,,,,,,
+855945,Chills,22.1,Fatigue,22.1,Nausea,22.1,Pain,22.1,Pyrexia,22.1
+855946,Cardiac murmur,22.1,Cough,22.1,Diarrhoea,22.1,Gastrointestinal disorder,22.1,Headache,22.1
+855946,Injection site erythema,22.1,Injection site induration,22.1,Injection site nodule,22.1,Injection site rash,22.1,Injection site swelling,22.1
+855946,Middle insomnia,22.1,Rash,22.1,Respiratory distress,22.1,Respiratory syncytial virus test negative,22.1,Respiratory tract congestion,22.1
+855946,Screaming,22.1,Skin reaction,22.1,Vaccination complication,22.1,Vomiting,22.1,Weight gain poor,22.1
+855947,Anxiety,22.1,Chills,22.1,Ear pain,22.1,Facial pain,22.1,Fatigue,22.1
+855947,Headache,22.1,Herpes zoster,22.1,Insomnia,22.1,Nasal discomfort,22.1,Nausea,22.1
+855947,Night sweats,22.1,Pain,22.1,Skin lesion,22.1,Vertigo,22.1,,
+855952,Exposure during pregnancy,22.1,Injection site pain,22.1,Pregnancy test positive,22.1,,,,
+855953,Herpes zoster,22.1,,,,,,,,
+855954,Herpes zoster,22.1,,,,,,,,
+855955,Injected limb mobility decreased,23,Pain in extremity,23,,,,,,
+855956,Injection site erythema,22.1,Injection site pruritus,22.1,Injection site swelling,22.1,Pain in extremity,22.1,Peripheral swelling,22.1
+855956,Pyrexia,22.1,,,,,,,,
+855957,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1,,,,
+855958,Bruxism,22.1,Hyperhidrosis,22.1,Loss of consciousness,22.1,Musculoskeletal stiffness,22.1,Pallor,22.1
+855958,Toothache,22.1,,,,,,,,
+855959,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,Injection site warmth,22.1,Lymphadenopathy,22.1
+855959,Ultrasound Doppler normal,22.1,,,,,,,,
+855960,Injection site paraesthesia,22.1,Musculoskeletal pain,22.1,Neck pain,22.1,Paraesthesia,22.1,,
+855961,Urticaria,22.1,,,,,,,,
+855962,Full blood count,22.1,Metabolic function test,22.1,Nausea,22.1,Urine analysis,22.1,Vomiting,22.1
+855963,Hypoaesthesia,22.1,Mobility decreased,22.1,Swelling,22.1,,,,
+855964,Joint stabilisation,22.1,Musculoskeletal pain,22.1,,,,,,
+855965,Cellulitis,23,Injection site erythema,23,,,,,,
+855966,Injection site erythema,22.1,Injection site pruritus,22.1,Injection site swelling,22.1,Pyrexia,22.1,,
+855967,Chest pain,22.1,Chills,22.1,Dysuria,22.1,Headache,22.1,Injection site pain,22.1
+855967,Injection site swelling,22.1,,,,,,,,
+855970,Expired product administered,22.1,No adverse event,22.1,,,,,,
+855971,No adverse event,22.1,Wrong technique in product usage process,22.1,,,,,,
+855972,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+855973,Product administered to patient of inappropriate age,22.1,,,,,,,,
+855974,Pityriasis rosea,22.1,Rash,22.1,,,,,,
+855975,Arthralgia,22.1,Bladder catheterisation,22.1,Blood test,22.1,Computerised tomogram,22.1,Constipation,22.1
+855975,Dysstasia,22.1,Gait inability,22.1,Immunoglobulin therapy,22.1,Injury,22.1,Magnetic resonance imaging,22.1
+855975,Magnetic resonance imaging spinal abnormal,22.1,Mobility decreased,22.1,Muscular weakness,22.1,Myelitis,22.1,Pain,22.1
+855975,Pain in extremity,22.1,Plasmapheresis,22.1,Sensory loss,22.1,Urinary retention,22.1,Urinary tract infection,22.1
+855975,X-ray,22.1,,,,,,,,
+855976,Nausea,22.1,Vomiting,22.1,,,,,,
+855977,Immediate post-injection reaction,22.1,Injection site pain,22.1,Injection site swelling,22.1,,,,
+855978,Rash,22.1,,,,,,,,
+855979,Hypoaesthesia,22.1,,,,,,,,
+855980,Pruritus,22.1,,,,,,,,
+855981,Back pain,22.1,Pain,22.1,Skin warm,22.1,Swelling,22.1,Tenderness,22.1
+855982,Injection site pain,22.1,Injection site pruritus,22.1,Injection site rash,22.1,Injection site vesicles,22.1,Spinal pain,22.1
+855983,Screaming,22.1,,,,,,,,
+855984,Injection site bruising,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Lymph node pain,22.1,,
+855985,Local reaction,22.1,Wrong product administered,22.1,,,,,,
+855986,Bursa removal,22.1,Bursitis,22.1,Injected limb mobility decreased,22.1,Injection site pain,22.1,Magnetic resonance imaging abnormal,22.1
+855986,Pain,22.1,Pain in extremity,22.1,,,,,,
+855987,Infection,22.1,Injection site erythema,22.1,Injection site mass,22.1,Injection site swelling,22.1,,
+855988,Inflammation,22.1,,,,,,,,
+855989,Petechiae,22.1,Rash erythematous,22.1,Rash papular,22.1,Urticaria,22.1,,
+855990,Asthenia,22.1,Dizziness,22.1,Hypersomnia,22.1,Impaired work ability,22.1,Myalgia,22.1
+855990,Pyrexia,22.1,,,,,,,,
+855991,Mobility decreased,22.1,Musculoskeletal stiffness,22.1,Pain in extremity,22.1,,,,
+855992,Unevaluable event,22.1,,,,,,,,
+855993,Injection site pain,22.1,Insomnia,22.1,Neck pain,22.1,Pain,22.1,,
+855994,Injection site pain,22.1,Pain,22.1,Pain in extremity,22.1,,,,
+855995,Asthenia,22.1,Pyrexia,22.1,,,,,,
+855996,Chills,22.1,Fatigue,22.1,Influenza like illness,22.1,Myalgia,22.1,Pyrexia,22.1
+855997,Incorrect dose administered,22.1,,,,,,,,
+855998,Injection site pain,22.1,,,,,,,,
+855999,Burning sensation,22.1,Paraesthesia,22.1,Rash erythematous,22.1,Rash pruritic,22.1,,
+856000,Erythema,22.1,Feeling hot,22.1,Pyrexia,22.1,,,,
+856001,Immediate post-injection reaction,22.1,Pruritus,22.1,Skin warm,22.1,Swelling,22.1,,
+856002,Asthenia,22.1,Diarrhoea,22.1,Dizziness,22.1,Facial pain,22.1,Headache,22.1
+856002,Immediate post-injection reaction,22.1,Musculoskeletal stiffness,22.1,Nausea,22.1,Pain,22.1,Pyrexia,22.1
+856002,Respiratory tract congestion,22.1,Sinusitis,22.1,,,,,,
+856003,Dysgraphia,22.1,Injected limb mobility decreased,22.1,Pain in extremity,22.1,,,,
+856004,Chills,22.1,Influenza like illness,22.1,Nausea,22.1,Vomiting,22.1,,
+856005,Back pain,22.1,Feeling cold,22.1,,,,,,
+856006,Erythema,22.1,Insomnia,22.1,Pain,22.1,Pruritus,22.1,Pustule,22.1
+856006,Scab,22.1,Swelling,22.1,,,,,,
+856007,Abdominal discomfort,22.1,Chills,22.1,Fatigue,22.1,Headache,22.1,Injection site erythema,22.1
+856007,Injection site pain,22.1,Injection site swelling,22.1,Myalgia,22.1,Pyrexia,22.1,,
+856008,Chills,22.1,Myalgia,22.1,,,,,,
+856009,Headache,22.1,Injection site pain,22.1,Insomnia,22.1,,,,
+856019,Post herpetic neuralgia,22.1,,,,,,,,
+856020,Herpes zoster,22.1,,,,,,,,
+856021,Herpes zoster,22.1,,,,,,,,
+856022,Herpes zoster,22.1,,,,,,,,
+856023,Arthroscopy,22.1,Blood culture,22.1,C-reactive protein,22.1,Chills,22.1,Culture,22.1
+856023,Fatigue,22.1,Feeling hot,22.1,Full blood count,22.1,Hyperhidrosis,22.1,Injected limb mobility decreased,22.1
+856023,Joint debridement,22.1,Joint irrigation,22.1,Metabolic function test,22.1,Pain in extremity,22.1,,
+856024,Herpes zoster,22.1,,,,,,,,
+856025,Injection site pruritus,22.1,Injection site swelling,22.1,Local reaction,22.1,Rash,22.1,Swelling face,22.1
+856025,Urticaria,22.1,,,,,,,,
+856026,Herpes zoster,22.1,,,,,,,,
+856027,Product administered at inappropriate site,22.1,,,,,,,,
+856029,Blood pressure decreased,22.1,Chills,22.1,Eye swelling,22.1,Gastrointestinal disorder,22.1,Headache,22.1
+856029,Immediate post-injection reaction,22.1,Injection site erythema,22.1,Injection site rash,22.1,Limb discomfort,22.1,Muscle tightness,22.1
+856029,Musculoskeletal stiffness,22.1,Myalgia,22.1,Nausea,22.1,Pain in extremity,22.1,Peripheral swelling,22.1
+856029,Pruritus,22.1,Pyrexia,22.1,Rash,22.1,Rash pruritic,22.1,Swelling,22.1
+856029,Tenderness,22.1,Urticaria,22.1,,,,,,
+856030,Amnesia,22.1,Balance disorder,22.1,Brain scan normal,22.1,Dizziness,22.1,Feeling abnormal,22.1
+856030,Meniere's disease,22.1,Vertigo,22.1,,,,,,
+856032,Erythema,22.1,Rash macular,22.1,,,,,,
+856033,Exposure during pregnancy,22.1,No adverse event,22.1,,,,,,
+856034,Pain in extremity,22.1,,,,,,,,
+856035,Rash,22.1,,,,,,,,
+856036,Infusion related reaction,22.1,Lip swelling,22.1,Urticaria,22.1,,,,
+856037,Herpes zoster,22.1,,,,,,,,
+856038,Anaphylactic reaction,22.1,,,,,,,,
+856039,Nasopharyngitis,22.1,,,,,,,,
+856040,Allergy to vaccine,22.1,,,,,,,,
+856041,Peripheral swelling,22.1,,,,,,,,
+856042,Epistaxis,22.1,,,,,,,,
+856043,Exposure during pregnancy,22.1,,,,,,,,
+856044,Headache,22.1,Pyrexia,22.1,Sinus disorder,22.1,,,,
+856045,Exposure during pregnancy,22.1,,,,,,,,
+856046,Hypersensitivity,22.1,,,,,,,,
+856047,Exposure during pregnancy,22.1,No adverse event,22.1,,,,,,
+856048,Incorrect dose administered,22.1,,,,,,,,
+856049,Allergy to vaccine,22.1,,,,,,,,
+856050,Injection site swelling,22.1,Injection site warmth,22.1,,,,,,
+856051,Feeling abnormal,22.1,Nausea,22.1,Pain,22.1,Pyrexia,22.1,,
+856052,Chills,22.1,Impaired work ability,22.1,Influenza like illness,22.1,Injection site pain,22.1,Lymph node pain,22.1
+856052,Lymphadenopathy,22.1,Myalgia,22.1,Pyrexia,22.1,,,,
+856053,Anxiety,22.1,Hyperacusis,22.1,Injection site pain,22.1,Injection site swelling,22.1,Migraine,22.1
+856053,Photophobia,22.1,,,,,,,,
+856054,Erythema,23,Induration,23,,,,,,
+856055,Injection site rash,22.1,Injection site urticaria,22.1,Urticaria,22.1,,,,
+856056,Aphonia,22.1,Bedridden,22.1,Ear pain,22.1,Headache,22.1,Oropharyngeal pain,22.1
+856056,Rhinorrhoea,22.1,,,,,,,,
+856057,Injection site urticaria,22.1,Urticaria,22.1,,,,,,
+856058,No adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+856059,Ecchymosis,22.1,Injection site haemorrhage,22.1,,,,,,
+856060,Febrile convulsion,22.1,Intensive care,22.1,Pyrexia,22.1,,,,
+856061,Headache,22.1,Malaise,22.1,Pain in extremity,22.1,Pyrexia,22.1,,
+856062,Herpes zoster,22.1,Scar,22.1,,,,,,
+856063,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+856064,Herpes zoster,22.1,Vaccination failure,22.1,,,,,,
+856065,Pain in extremity,22.1,Vaccine positive rechallenge,22.1,,,,,,
+856066,Transfusion,22.1,,,,,,,,
+856067,Arthralgia,22.1,Asthenia,22.1,Blood test normal,22.1,Discomfort,22.1,Dizziness,22.1
+856067,Limb discomfort,22.1,Muscle disorder,22.1,Pain,22.1,Vaccine positive rechallenge,22.1,,
+856068,Death,22.1,,,,,,,,
+856069,Arthralgia,22.1,,,,,,,,
+856070,Erythema,22.1,Injection site swelling,22.1,,,,,,
+856071,Feeling abnormal,22.1,Hypoaesthesia,22.1,Muscle tightness,22.1,,,,
+856072,Antineutrophil cytoplasmic antibody negative,22.1,Antinuclear antibody negative,22.1,Blood folate normal,22.1,C-reactive protein increased,22.1,Complement factor C3,22.1
+856072,Complement factor C4,22.1,Electrophoresis protein normal,22.1,Full blood count normal,22.1,HIV test negative,22.1,Hepatitis B test negative,22.1
+856072,Hepatitis C test negative,22.1,Metabolic function test normal,22.1,Nasopharyngitis,22.1,Ophthalmological examination normal,22.1,Pain of skin,22.1
+856072,Red blood cell sedimentation rate normal,22.1,Swelling,22.1,Treponema test negative,22.1,Urine analysis normal,22.1,Visual impairment,22.1
+856072,Vitamin B12 normal,22.1,Vitamin D,22.1,Weight increased,22.1,,,,
+856073,Mobility decreased,22.1,Musculoskeletal pain,22.1,,,,,,
+856074,Abdominal pain,22.1,Cough,22.1,Dyspnoea,22.1,Erythema,22.1,Lip swelling,22.1
+856074,Rash,22.1,Swelling face,22.1,Visual impairment,22.1,,,,
+856075,Injection site swelling,22.1,Peripheral swelling,22.1,Wrong product administered,22.1,,,,
+856076,Arthralgia,22.1,Dizziness,22.1,Facial pain,22.1,Flank pain,22.1,Head injury,22.1
+856076,Immediate post-injection reaction,22.1,Injection site erythema,22.1,Injection site pain,22.1,Loss of consciousness,22.1,Micturition urgency,22.1
+856076,Middle insomnia,22.1,Nausea,22.1,Pain,22.1,Pustule,22.1,Pyrexia,22.1
+856076,Rash,22.1,Seizure,22.1,,,,,,
+856077,Chills,22.1,Headache,22.1,Hyperhidrosis,22.1,Nausea,22.1,Pyrexia,22.1
+856082,Herpes zoster,22.1,,,,,,,,
+856083,Exposure during pregnancy,22.1,,,,,,,,
+856084,Feeling abnormal,22.1,Headache,22.1,Influenza like illness,22.1,,,,
+856085,Chills,22.1,Pain,22.1,Pyrexia,22.1,,,,
+856086,Injection site erythema,22.1,Injection site pain,22.1,,,,,,
+856087,Injection site erythema,22.1,Injection site pain,22.1,Vaccine positive rechallenge,22.1,,,,
+856088,Hepatitis B surface antibody positive,22.1,Hepatitis B virus test positive,22.1,,,,,,
+856089,Axillary pain,22.1,Bedridden,22.1,Chills,22.1,Feeding disorder,22.1,Feeling hot,22.1
+856089,Headache,22.1,Hyperhidrosis,22.1,Muscle tightness,22.1,Pain in extremity,22.1,,
+856090,Rash,22.1,,,,,,,,
+856091,Influenza,22.1,Injection site pain,22.1,Ocular hyperaemia,22.1,Vaccine positive rechallenge,22.1,Vision blurred,22.1
+856091,Visual impairment,22.1,,,,,,,,
+856092,Injection site pain,22.1,,,,,,,,
+856093,Documented hypersensitivity to administered product,22.1,Rash,22.1,,,,,,
+856094,Herpes zoster,22.1,Vaccination failure,22.1,,,,,,
+856095,Deafness,22.1,,,,,,,,
+856096,Chills,22.1,Fatigue,22.1,Headache,22.1,Myalgia,22.1,Nausea,22.1
+856097,Injection site erythema,22.1,,,,,,,,
+856098,Injection site pain,22.1,,,,,,,,
+856099,Injection site erythema,22.1,Injection site swelling,22.1,,,,,,
+856100,Fibrin D dimer increased,22.1,,,,,,,,
+856101,Injection site erythema,23,,,,,,,,
+856102,Rash,23,,,,,,,,
+856103,Injection site urticaria,22.1,,,,,,,,
+856104,Injected limb mobility decreased,22.1,Injection site pain,22.1,,,,,,
+856105,Erythema,22.1,Pain,22.1,Skin warm,22.1,Swelling,22.1,,
+856106,Erythema,22.1,Hypotonia,22.1,Swelling face,22.1,,,,
+856107,Injection site reaction,22.1,,,,,,,,
+856116,Cough,22.1,Dyspnoea,22.1,Interstitial lung disease,22.1,,,,
+856118,Blindness,22.1,Blood pressure increased,22.1,Cardiac discomfort,22.1,Diplopia,22.1,Fatigue,22.1
+856118,Feeling abnormal,22.1,Hallucination,22.1,Heart rate increased,22.1,Influenza virus test negative,22.1,Injection site discomfort,22.1
+856118,Lacrimation increased,22.1,Limb discomfort,22.1,Rhinorrhoea,22.1,Sleep disorder,22.1,Sneezing,22.1
+856118,Throat tightness,22.1,,,,,,,,
+856119,Injection site bruising,22.1,Injection site discolouration,22.1,Injection site induration,22.1,Injection site nodule,22.1,Injection site pruritus,22.1
+856119,Injection site swelling,22.1,,,,,,,,
+856120,Muscle spasms,22.1,,,,,,,,
+856121,Apgar score normal,22.1,Blood bilirubin increased,22.1,Foetal exposure during pregnancy,22.1,Intensive care,22.1,,
+856122,Erythema,22.1,Swelling,22.1,,,,,,
+856123,Induration,22.1,Mass,22.1,Skin discolouration,22.1,,,,
+856124,Abdominal pain upper,22.1,Aggression,22.1,Anger,22.1,Arthralgia,22.1,Cough,22.1
+856124,Influenza,22.1,Influenza virus test positive,22.1,Pain in extremity,22.1,Pyrexia,22.1,Rhinorrhoea,22.1
+856124,Vomiting,22.1,,,,,,,,
+856125,Pain,22.1,Pyrexia,22.1,Rash,22.1,Urticaria,22.1,,
+856126,Injection site erythema,22.1,Injection site swelling,22.1,Injection site warmth,22.1,Limb discomfort,22.1,Pain in extremity,22.1
+856127,Chills,22.1,Dizziness,22.1,Fatigue,22.1,Headache,22.1,Nausea,22.1
+856128,Injection site bruising,22.1,,,,,,,,
+856129,Balance disorder,22.1,Cold sweat,22.1,Fall,22.1,Loss of consciousness,22.1,Pallor,22.1
+856130,Antinuclear antibody positive,22.1,Arthralgia,22.1,Burning sensation,22.1,Hypoaesthesia,22.1,Laboratory test,22.1
+856130,Loss of personal independence in daily activities,22.1,Muscular weakness,22.1,Pain,22.1,Pain in extremity,22.1,Radiculitis brachial,22.1
+856131,Dizziness,22.1,Nausea,22.1,,,,,,
+856132,Stomatitis,23,,,,,,,,
+856133,Contraindication to vaccination,22.1,No adverse event,22.1,,,,,,
+856136,Wrong product administered,22.1,,,,,,,,
+856137,Expired product administered,22.1,No adverse event,22.1,,,,,,
+856138,Abnormal faeces,22.1,Diarrhoea,22.1,Hypersomnia,22.1,Irritability,22.1,Vomiting,22.1
+856139,Fatigue,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Migraine,22.1,Nausea,22.1
+856139,Pain,22.1,,,,,,,,
+856140,Incorrect route of product administration,22.1,No adverse event,22.1,,,,,,
+856141,Rash erythematous,22.1,Rash pruritic,22.1,,,,,,
+856143,Pyrexia,22.1,,,,,,,,
+856144,Arthralgia,22.1,Back pain,22.1,Chest discomfort,22.1,Dyspnoea,22.1,Electrocardiogram normal,22.1
+856144,Feeling abnormal,22.1,Palpitations,22.1,,,,,,
+856145,Injection site erythema,22.1,Injection site pain,22.1,,,,,,
+856146,Injection site cellulitis,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site warmth,22.1,Pain in extremity,22.1
+856146,Pyrexia,22.1,,,,,,,,
+856147,Dizziness,22.1,Fatigue,22.1,Headache,22.1,Heart rate increased,22.1,Influenza virus test negative,22.1
+856147,Injection site urticaria,22.1,Lethargy,22.1,Myalgia,22.1,Pain,22.1,Pyrexia,22.1
+856147,Tinnitus,22.1,,,,,,,,
+856148,Injection site erosion,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site rash,22.1,,
+856149,Injected limb mobility decreased,22.1,Injection site pain,22.1,Injection site swelling,22.1,Pain,22.1,,
+856150,Injection site cellulitis,22.1,Injection site erythema,22.1,Injection site oedema,22.1,Injection site warmth,22.1,,
+856152,Burning sensation,22.1,Flushing,22.1,Hypoaesthesia,22.1,,,,
+856153,Injection site induration,22.1,Injection site rash,22.1,Injection site warmth,22.1,,,,
+856155,Expired product administered,22.1,,,,,,,,
+856156,Erythema,22.1,Pyrexia,22.1,Rash,22.1,Urticaria,22.1,,
+856157,Product administered to patient of inappropriate age,22.1,,,,,,,,
+856158,Erythema,22.1,Peripheral swelling,22.1,,,,,,
+856159,Feeling abnormal,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,,,,
+856160,Back pain,22.1,Chills,22.1,Fatigue,22.1,Headache,22.1,Injection site pain,22.1
+856160,Pain,22.1,Pain in jaw,22.1,Sensitive skin,22.1,,,,
+856161,Injection site nodule,22.1,,,,,,,,
+856162,Chills,22.1,Decreased appetite,22.1,Fatigue,22.1,Headache,22.1,Heart rate increased,22.1
+856162,Myalgia,22.1,Pyrexia,22.1,,,,,,
+856163,Burning sensation,22.1,Chills,22.1,Heart rate increased,22.1,Immediate post-injection reaction,22.1,Insomnia,22.1
+856163,Irritability,22.1,Pruritus,22.1,Pyrexia,22.1,Skin lesion,22.1,Urticaria,22.1
+856163,Vaccination complication,22.1,,,,,,,,
+856164,Axillary pain,22.1,Musculoskeletal stiffness,22.1,,,,,,
+856165,Loss of personal independence in daily activities,22.1,Mobility decreased,22.1,Pain,22.1,Swelling,22.1,,
+856166,Haemorrhage,22.1,Head injury,22.1,Syncope,22.1,,,,
+856167,Injected limb mobility decreased,22.1,,,,,,,,
+856168,Rectal prolapse,22.1,Ultrasound abdomen normal,22.1,Urine analysis normal,22.1,,,,
+856169,Dizziness,22.1,,,,,,,,
+856170,Herpes zoster,22.1,Rash,22.1,,,,,,
+856171,Anti-ganglioside antibody positive,22.1,Antibody test positive,22.1,Autoimmune neuropathy,22.1,Blood test normal,22.1,Chest X-ray normal,22.1
+856171,Computerised tomogram normal,22.1,Dizziness,22.1,Drug screen negative,22.1,Eye movement disorder,22.1,Headache,22.1
+856171,Immediate post-injection reaction,22.1,Injection site pain,22.1,Lethargy,22.1,Loss of personal independence in daily activities,22.1,Lumbar puncture normal,22.1
+856171,Magnetic resonance imaging normal,22.1,Photosensitivity reaction,22.1,Sensitive skin,22.1,Ultrasound abdomen normal,22.1,Urine analysis normal,22.1
+856171,Viral infection,22.1,Walking aid user,22.1,,,,,,
+856172,Abdominal discomfort,22.1,Bruxism,22.1,Crying,22.1,Decreased appetite,22.1,Ear infection,22.1
+856172,Emotional distress,22.1,Grunting,22.1,Headache,22.1,Insomnia,22.1,Lethargy,22.1
+856172,Pain,22.1,Pyrexia,22.1,,,,,,
+856173,Injection site bruising,22.1,Injection site erythema,22.1,Injection site pain,22.1,Injection site swelling,22.1,,
+856174,Injection site pain,22.1,,,,,,,,
+856175,Condition aggravated,22.1,Fatigue,22.1,Headache,22.1,Injection site erythema,22.1,Injection site induration,22.1
+856175,Injection site mass,22.1,Injection site swelling,22.1,Injection site warmth,22.1,Mouth ulceration,22.1,Rash,22.1
+856175,Rash erythematous,22.1,Rash papular,22.1,Rash pruritic,22.1,Restlessness,22.1,Seizure,22.1
+856176,Chills,22.1,Cough,22.1,Hyperhidrosis,22.1,Influenza,22.1,Influenza virus test positive,22.1
+856176,Malaise,22.1,Productive cough,22.1,Pyrexia,22.1,,,,
+856177,Body temperature increased,22.1,Chills,22.1,Headache,22.1,Pain,22.1,,
+856178,Pain,22.1,Pain in extremity,22.1,,,,,,
+856179,Erythema,22.1,Peripheral swelling,22.1,Pruritus,22.1,,,,
+856180,Chills,22.1,Feeling cold,22.1,Lethargy,22.1,Pain,22.1,Tremor,22.1
+856181,Nausea,22.1,Vertigo,22.1,,,,,,
+856182,Condition aggravated,22.1,Psoriasis,22.1,,,,,,
+856183,Pyrexia,22.1,Rash morbilliform,22.1,,,,,,
+856184,Pyrexia,22.1,,,,,,,,
+856185,Body temperature increased,22.1,Chills,22.1,Fatigue,22.1,Headache,22.1,Influenza virus test negative,22.1
+856185,Pain,22.1,,,,,,,,
+856186,Chills,22.1,Disorientation,22.1,Headache,22.1,Pain,22.1,Pyrexia,22.1
+856187,Arthralgia,22.1,Back pain,22.1,Biopsy artery abnormal,22.1,Blood iron decreased,22.1,Headache,22.1
+856187,Magnetic resonance imaging,22.1,Musculoskeletal pain,22.1,Pain in jaw,22.1,Temporal arteritis,22.1,X-ray,22.1
+856188,Arthralgia,22.1,,,,,,,,
+856189,Fatigue,22.1,Headache,22.1,Myalgia,22.1,Nausea,22.1,Pyrexia,22.1
+856190,Abdominal X-ray,22.1,Abdominal distension,22.1,Diarrhoea,22.1,Influenza,22.1,Influenza virus test,22.1
+856190,Polymerase chain reaction,22.1,Respiratory syncytial virus test,22.1,X-ray normal,22.1,,,,
+856191,Chills,22.1,Pyrexia,22.1,Vomiting,22.1,,,,
+856192,Dizziness,22.1,,,,,,,,
+856193,Asthenia,22.1,Chills,22.1,Dehydration,22.1,Dizziness,22.1,Fatigue,22.1
+856193,Gait disturbance,22.1,Headache,22.1,Heart rate increased,22.1,Hyperhidrosis,22.1,Loss of consciousness,22.1
+856193,Nausea,22.1,Pyrexia,22.1,,,,,,
+856194,Gait disturbance,22.1,Laboratory test,22.1,Myalgia,22.1,Pyrexia,22.1,,
+856195,Injection site erythema,22.1,Injection site induration,22.1,Injection site swelling,22.1,Injection site warmth,22.1,,
+856196,Arthralgia,22.1,Cold sweat,22.1,Contusion,22.1,Diarrhoea,22.1,Dizziness,22.1
+856196,Fall,22.1,Head injury,22.1,Loss of consciousness,22.1,Nausea,22.1,Syncope,22.1
+856197,Immediate post-injection reaction,22.1,Paraesthesia,22.1,Pruritus,22.1,,,,
+856199,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+856200,Chest pain,22.1,Dizziness,22.1,Flushing,22.1,,,,
+856201,Dizziness,22.1,Fatigue,22.1,Hyperhidrosis,22.1,,,,
+856202,Chills,22.1,Fatigue,22.1,Headache,22.1,Myalgia,22.1,,
+856203,Asthenia,22.1,Blood test normal,22.1,Fatigue,22.1,Gait disturbance,22.1,Hypersomnia,22.1
+856203,Loss of personal independence in daily activities,22.1,Mobility decreased,22.1,Muscular weakness,22.1,Pain in extremity,22.1,,
+856204,Abdominal pain upper,22.1,Headache,22.1,Hyperacusis,22.1,Injection site irritation,22.1,Mental impairment,22.1
+856204,Migraine,22.1,Moaning,22.1,Pain in extremity,22.1,Photophobia,22.1,Pyrexia,22.1
+856204,Vomiting,22.1,,,,,,,,
+856205,Injection site pain,22.1,,,,,,,,
+856206,Injection site reaction,22.1,Rash macular,22.1,,,,,,
+856207,Wrong product administered,22.1,,,,,,,,
+856208,Erythema of eyelid,22.1,Swelling of eyelid,22.1,,,,,,
+856209,Erythema,22.1,Pain in extremity,22.1,Peripheral swelling,22.1,,,,
+856210,Erythema,22.1,Pain in extremity,22.1,,,,,,
+856211,Chills,22.1,Headache,22.1,Injection site erythema,22.1,Injection site swelling,22.1,Pain,22.1
+856211,Peripheral swelling,22.1,Pyrexia,22.1,,,,,,
+856212,Arthralgia,22.1,Condition aggravated,22.1,Fatigue,22.1,Injection site pain,22.1,Injection site swelling,22.1
+856212,Musculoskeletal pain,22.1,Pain,22.1,,,,,,
+856213,Chills,22.1,Injection site pain,22.1,Malaise,22.1,Pyrexia,22.1,,
+856214,Asthenia,22.1,Dyspnoea,22.1,Fatigue,22.1,Visual impairment,22.1,,
+856215,Chills,22.1,Fatigue,22.1,Headache,22.1,Malaise,22.1,Pain,22.1
+856215,Pyrexia,22.1,,,,,,,,
+856216,Dysphemia,22.1,,,,,,,,
+856217,Arthralgia,22.1,Blood test abnormal,22.1,Dehydration,22.1,Fall,22.1,Fatigue,22.1
+856217,Headache,22.1,Influenza like illness,22.1,Ligament sprain,22.1,Loss of control of legs,22.1,Malaise,22.1
+856217,Muscle contractions involuntary,22.1,Pain,22.1,,,,,,
+856218,Fatigue,22.1,Heart rate increased,22.1,Pain in extremity,22.1,Pyrexia,22.1,,
+856219,Blepharospasm,22.1,Choking,22.1,Cough,22.1,Pyrexia,22.1,Rhinorrhoea,22.1
+856219,Seizure,22.1,,,,,,,,
+856220,Erythema,22.1,Pruritus,22.1,Rash,22.1,Skin plaque,22.1,,
+856222,Arthritis bacterial,22.1,Injection site pain,22.1,Intensive care,22.1,Shoulder operation,22.1,Staphylococcal infection,22.1
+856223,Asthenia,22.1,Injection site pain,22.1,Pain,22.1,Pyrexia,22.1,Sciatica,22.1
+856224,Chills,22.1,Headache,22.1,Injection site pain,22.1,Pyrexia,22.1,,
+856225,Biopsy skin abnormal,22.1,Lichenoid keratosis,22.1,Pruritus,22.1,Rash,22.1,Rash erythematous,22.1
+856226,Pain,22.1,Pain in extremity,22.1,,,,,,
+856227,Injection site pain,22.1,Injection site reaction,22.1,Injection site warmth,22.1,Rash papular,22.1,,
+856228,Dizziness,22.1,Dyskinesia,22.1,Injection site haemorrhage,22.1,Loss of consciousness,22.1,Syncope,22.1
+856228,Tension,22.1,,,,,,,,
+856229,Product administered to patient of inappropriate age,22.1,,,,,,,,
+856230,Herpes zoster,22.1,,,,,,,,
+856231,Syncope,22.1,,,,,,,,
+856232,Injection site rash,22.1,Rash,22.1,,,,,,
+856233,Blister,22.1,Pyrexia,22.1,Rash,22.1,Urticaria,22.1,,
+856234,Headache,22.1,Nausea,22.1,Pain in extremity,22.1,Rash,22.1,,
+856235,Balance disorder,22.1,Coordination abnormal,22.1,Gait disturbance,22.1,Ischaemic stroke,22.1,Magnetic resonance imaging,22.1
+856235,Vertigo,22.1,Vomiting,22.1,,,,,,
+856236,Pruritus,22.1,Skin irritation,22.1,Urticaria,22.1,,,,
+856237,Erythema,22.1,Peripheral swelling,22.1,Tenderness,22.1,,,,
+856238,Injection site erythema,22.1,,,,,,,,
+856239,Blood test,22.1,Electrocardiogram,22.1,Hypoaesthesia,22.1,Magnetic resonance imaging,22.1,Musculoskeletal stiffness,22.1
+856239,Neuralgia,22.1,Pain,22.1,Quality of life decreased,22.1,Tinnitus,22.1,Vertigo,22.1
+856240,Dizziness,22.1,Headache,22.1,Pain in extremity,22.1,,,,
+856241,Injection site discomfort,22.1,Injection site pain,22.1,Injection site swelling,22.1,Malaise,22.1,,
+856242,Chest pain,22.1,Dyspepsia,22.1,Exposure during pregnancy,22.1,,,,
+856243,Asthenia,22.1,Dyspnoea,22.1,Pyrexia,22.1,Vomiting,22.1,,
+856253,Incorrect route of product administration,23,No adverse event,23,Product storage error,23,,,,
+856255,Extra dose administered,22.1,No adverse event,22.1,,,,,,
+856256,Herpes zoster,22.1,,,,,,,,
+856257,Herpes zoster,22.1,,,,,,,,
+856258,No adverse event,23,Product storage error,23,,,,,,
+856260,Antibody test abnormal,23,Rash,23,,,,,,
+856261,Herpes zoster,22.1,,,,,,,,
+856262,Product storage error,22.1,,,,,,,,
+856263,Herpes zoster,22.1,,,,,,,,
+856264,Herpes zoster,22.1,,,,,,,,
+856265,Expired product administered,23,No adverse event,23,,,,,,
+856266,Herpes zoster,22.1,,,,,,,,
+856267,Herpes zoster,22.1,,,,,,,,
+856268,Herpes zoster,22.1,,,,,,,,
+856269,Herpes zoster,22.1,,,,,,,,
+856270,Herpes zoster,22.1,,,,,,,,
+856271,Herpes zoster,22.1,,,,,,,,
+856272,Herpes zoster,22.1,,,,,,,,
+856273,Herpes zoster,22.1,,,,,,,,
+856274,Expired product administered,23,No adverse event,23,,,,,,
+856275,Product storage error,23,,,,,,,,
+856276,Regurgitation,23,,,,,,,,
+856277,Product administered to patient of inappropriate age,23,,,,,,,,
+856278,Product storage error,23,,,,,,,,
+856279,Inappropriate schedule of product administration,22.1,No adverse event,22.1,,,,,,
+856280,Product storage error,23,,,,,,,,
+856281,Adverse event,22.1,Product administered to patient of inappropriate age,22.1,,,,,,
+856282,Incorrect dose administered,23,Product preparation issue,23,,,,,,
+856283,Fatigue,22.1,Malaise,22.1,Pain,22.1,Pyrexia,22.1,,
