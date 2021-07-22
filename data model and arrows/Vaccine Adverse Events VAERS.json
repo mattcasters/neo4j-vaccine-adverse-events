@@ -1,0 +1,620 @@
+{
+  "style": {
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 40,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-color": "#000000",
+    "property-font-size": 40,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -284.9461077673967,
+        "y": 0
+      },
+      "caption": "",
+      "labels": [
+        "Adverse Event"
+      ],
+      "properties": {
+        "numdays,": "",
+        "onset_date": "",
+        "recvdate,": "",
+        "rpt_date": "",
+        "splttype": "",
+        "vaers_id": "",
+        "v_adminby": "",
+        "v_fundby": "",
+        "todays_date": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": -728.5942750463591,
+        "y": -336.36064245267414
+      },
+      "caption": "",
+      "labels": [
+        "VaxDetails"
+      ],
+      "properties": {
+        "vax_name": "",
+        "vax_mfg": "",
+        "vax_lot": "",
+        "vax_dose_series": "",
+        "vax_route": "",
+        "vax_site": "",
+        "vax_type": ""
+      },
+      "style": {
+        "label-font-size": 40,
+        "property-font-size": 20,
+        "node-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": -1218.5118579778937,
+        "y": 340.9646403052522
+      },
+      "caption": "",
+      "labels": [
+        "Allergies"
+      ],
+      "properties": {
+        "32K of  allergy text": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "label-font-size": 40,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": -570.3363335063777,
+        "y": 134.77423565794547
+      },
+      "caption": "",
+      "labels": [
+        "SymptomsDescr"
+      ],
+      "properties": {
+        "32K of symptom text": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": -1421.043557875409,
+        "y": -251.1620925431817
+      },
+      "caption": "",
+      "labels": [
+        "History"
+      ],
+      "properties": {
+        "32K of history text": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "label-font-size": 40,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": -1387.4599598746254,
+        "y": 300.7234126325905
+      },
+      "caption": "",
+      "labels": [
+        "Illnesses"
+      ],
+      "properties": {
+        "32K illnesses text": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "label-font-size": 40,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": -482.02959295613846,
+        "y": 246.5152640515166
+      },
+      "caption": "",
+      "labels": [
+        "Lab_Data"
+      ],
+      "properties": {
+        "32K of labs text": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -1565.9283787092882,
+        "y": 20.528375211112806
+      },
+      "caption": "",
+      "labels": [
+        "Birth_Defect"
+      ],
+      "properties": {
+        "super sparse.  23 total records with a Y": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "label-font-size": 40,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -1508.7296417303094,
+        "y": 190.28112417158977
+      },
+      "caption": "",
+      "labels": [
+        "Medications"
+      ],
+      "properties": {
+        "240 char, messy text": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "label-font-size": 40,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": -503.9698319140853,
+        "y": -227.24498631530955
+      },
+      "caption": "",
+      "labels": [
+        "SymptomName"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": -1218.5118579778937,
+        "y": 10.264187605556403
+      },
+      "caption": "",
+      "labels": [
+        "PATIENT"
+      ],
+      "properties": {
+        "age_yrs": "",
+        "c_age_yr": "",
+        "c_age_mo": "",
+        "sex": "",
+        "state": ""
+      },
+      "style": {
+        "label-font-size": 40,
+        "node-color": "#73d8ff",
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": -31.200771251592187,
+        "y": -187.6831898200025
+      },
+      "caption": "",
+      "labels": [
+        "Death"
+      ],
+      "properties": {
+        "datedied": ""
+      },
+      "style": {
+        "label-font-size": 20,
+        "property-font-size": 20,
+        "caption-font-size": 20,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": -1508.7296417303094,
+        "y": -148.2805297760701
+      },
+      "caption": "",
+      "labels": [
+        "Disability"
+      ],
+      "properties": {},
+      "style": {
+        "label-font-size": 40,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": -31.200771251592187,
+        "y": 187.68318982000253
+      },
+      "caption": "",
+      "labels": [
+        "PRIOR VAX"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": -407.60098110460143,
+        "y": -316.0041999985793
+      },
+      "caption": "VISIT TYPE",
+      "labels": [
+        "OFC VISIT",
+        "ER ED VISIT",
+        "ER VISIT"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": -195.13297129983334,
+        "y": -302.56449901201034
+      },
+      "caption": "Severity",
+      "labels": [
+        "Hospitalized",
+        "Prolonged Hosp Stay",
+        "Life Threat"
+      ],
+      "properties": {
+        "hospdays": ""
+      },
+      "style": {
+        "label-font-size": 20,
+        "property-font-size": 20,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 54.027154260905206,
+        "y": 0
+      },
+      "caption": "Recovery Status",
+      "labels": [
+        "Recovered"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": -728.5942750463591,
+        "y": 0
+      },
+      "caption": "",
+      "labels": [
+        "VaxEvent"
+      ],
+      "properties": {
+        "vaers_id": "",
+        "vax_date": ""
+      },
+      "style": {
+        "label-font-size": 20,
+        "property-font-size": 20,
+        "node-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": -1712.349009318336,
+        "y": -751.7788530804708
+      },
+      "caption": "Key:  vaersdata file",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "caption-font-size": 60,
+        "radius": 70,
+        "node-color": "#73d8ff"
+      }
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": -1508.7296417303094,
+        "y": -751.7788530804708
+      },
+      "caption": "Key:  vaxdata file",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "caption-font-size": 60,
+        "radius": 70,
+        "node-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": -1286.5455022845376,
+        "y": -751.7788530804708
+      },
+      "caption": "Key:  symptoms file",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "caption-font-size": 60,
+        "radius": 70,
+        "node-color": "#a4dd00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n6",
+      "fromId": "n0",
+      "toId": "n7",
+      "type": "HAS SYMPTOM DESCR",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n9",
+      "fromId": "n0",
+      "toId": "n10",
+      "type": "HAS LAB DATA",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n12",
+      "fromId": "n0",
+      "toId": "n13",
+      "type": "HAS SYMPTOMS",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n19",
+      "fromId": "n14",
+      "toId": "n11",
+      "type": "HAS_BIRTH_DEFECT",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n20",
+      "fromId": "n14",
+      "toId": "n6",
+      "type": "HAS ALLERGIES",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n21",
+      "fromId": "n14",
+      "toId": "n9",
+      "type": "HAS ILLNESSES",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n22",
+      "fromId": "n14",
+      "toId": "n12",
+      "type": "TAKES_MEDICATIONS",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n24",
+      "fromId": "n14",
+      "toId": "n8",
+      "type": "HAS HISTORY",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n26",
+      "fromId": "n0",
+      "toId": "n15",
+      "type": "DIED",
+      "properties": {
+        "days_til_death": ""
+      },
+      "style": {
+        "type-font-size": 20,
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n27",
+      "fromId": "n14",
+      "toId": "n16",
+      "type": "HAS DISABILITY",
+      "properties": {
+        "": ""
+      },
+      "style": {
+        "property-font-size": 20,
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n28",
+      "fromId": "n0",
+      "toId": "n17",
+      "type": "HAD PRIOR VAX",
+      "properties": {},
+      "style": {
+        "property-font-size": 20,
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n29",
+      "fromId": "n0",
+      "toId": "n18",
+      "type": "VISITED",
+      "properties": {},
+      "style": {
+        "property-font-size": 20,
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n30",
+      "fromId": "n0",
+      "toId": "n19",
+      "type": "WAS HOSPITALIZED",
+      "properties": {},
+      "style": {
+        "property-font-size": 20,
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n31",
+      "fromId": "n0",
+      "toId": "n20",
+      "type": "HAS RECOVERY",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n32",
+      "fromId": "n14",
+      "toId": "n21",
+      "type": "RECVDVAX",
+      "properties": {
+        "vax_date": ""
+      },
+      "style": {
+        "type-font-size": 20,
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n33",
+      "fromId": "n21",
+      "toId": "n5",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n34",
+      "fromId": "n21",
+      "toId": "n0",
+      "type": "HASADVEVENT",
+      "properties": {
+        "num_days": ""
+      },
+      "style": {
+        "type-font-size": 20,
+        "property-font-size": 20
+      }
+    }
+  ]
+}
