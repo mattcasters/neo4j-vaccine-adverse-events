@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipeline>
+  <info>
+    <name>pipeline - vax data</name>
+    <name_sync_with_filename>Y</name_sync_with_filename>
+    <description/>
+    <extended_description/>
+    <pipeline_version/>
+    <pipeline_type>Normal</pipeline_type>
+    <parameters>
+    </parameters>
+    <capture_transform_performance>N</capture_transform_performance>
+    <transform_performance_capturing_delay>1000</transform_performance_capturing_delay>
+    <transform_performance_capturing_size_limit>100</transform_performance_capturing_size_limit>
+    <created_user>-</created_user>
+    <created_date>2021/07/20 15:42:35.836</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2021/07/20 15:42:35.836</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>CSV file input</from>
+      <to>Create Nodes: VaxDetails</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <transform>
+    <name>CSV file input</name>
+    <type>CSVInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <filename>C:\SAM\Neo4j\hop\projects\vaers_data\2020vaersvax-small.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding/>
+    <fields>
+      <field>
+        <name>VAERS_ID</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_TYPE</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>7</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_MANU</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>33</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_LOT</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>13</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_DOSE_SERIES</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>3</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_ROUTE</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>3</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_SITE</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>2</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>VAX_NAME</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>47</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <attributes/>
+    <GUI>
+      <xloc>96</xloc>
+      <yloc>112</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>Create Nodes: VaxDetails</name>
+    <type>Neo4jCypherOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
+    <cypher>UNWIND $rows AS row
+CREATE (:VaxDetails
+{
+vaers_id : row.VAERS_ID,
+vax_dose_series : row.VAX_DOSE_SERIES,
+vax_lot : row.VAX_LOT,
+vax_manu : row.VAX_MANU,
+vax_name : row.VAX_NAME,
+vax_route : row.VAX_ROUTE,
+vax_site : row.VAX_SITE,
+vax_Type : row.VAX_TYPE
+}
+)
+;
+</cypher>
+    <batch_size>5000</batch_size>
+    <read_only>N</read_only>
+    <nr_retries_on_error>10</nr_retries_on_error>
+    <retry>Y</retry>
+    <cypher_from_field>N</cypher_from_field>
+    <cypher_field/>
+    <unwind>Y</unwind>
+    <unwind_map>rows</unwind_map>
+    <returning_graph>N</returning_graph>
+    <return_graph_field/>
+    <mappings>
+      <mapping>
+        <parameter>VAERS_ID</parameter>
+        <field>VAERS_ID</field>
+        <type>Integer</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_TYPE</parameter>
+        <field>VAX_TYPE</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_MANU</parameter>
+        <field>VAX_MANU</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_LOT</parameter>
+        <field>VAX_LOT</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_DOSE_SERIES</parameter>
+        <field>VAX_DOSE_SERIES</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_ROUTE</parameter>
+        <field>VAX_ROUTE</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_SITE</parameter>
+        <field>VAX_SITE</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>VAX_NAME</parameter>
+        <field>VAX_NAME</field>
+        <type>String</type>
+      </mapping>
+    </mappings>
+    <returns/>
+    <attributes/>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>112</yloc>
+    </GUI>
+  </transform>
+  <transform_error_handling>
+  </transform_error_handling>
+  <attributes/>
+</pipeline>
