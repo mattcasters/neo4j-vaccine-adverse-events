@@ -82,6 +82,11 @@
       <to>Merge Nodes:  Allergies</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Read file - vaers data</from>
+      <to>just a test</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <transform>
     <name>Read file - vaers data</name>
@@ -1921,6 +1926,33 @@ MERGE (p)-[:HAS_ALLERGIES]->(a)</cypher>
     <GUI>
       <xloc>384</xloc>
       <yloc>416</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>just a test</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to/>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <GUI>
+      <xloc>208</xloc>
+      <yloc>496</yloc>
     </GUI>
   </transform>
   <transform_error_handling>
