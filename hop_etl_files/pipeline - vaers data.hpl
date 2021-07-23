@@ -28,18 +28,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Transform Dates</from>
-      <to>Nodes Merge: Patient</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Read File - Vaers Data</from>
       <to>Transform Dates</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Transform Dates</from>
-      <to>Nodes Merge: VaxEvent</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -110,6 +100,11 @@
     <hop>
       <from>RECOVD is not null</from>
       <to>Nodes Merge:  RecoveryStatus</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Read File - Vaers Data</from>
+      <to>Nodes Merge:  SymptomsDesc</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -479,6 +474,51 @@ MERGE (ae)-[:HASLABDATA]->(c)</cypher>
     </GUI>
   </transform>
   <transform>
+    <name>Nodes Merge:  RecoveryStatus</name>
+    <type>Neo4jCypherOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
+    <cypher>UNWIND $rows AS row
+MATCH ( ae:AdverseEvent {vaers_id : row.vaers_id } )
+MATCH ( x:RecoveryStatus {recovd : row.recovd } )
+MERGE (ae)-[:HASRECOVERY]->(x)</cypher>
+    <batch_size>5000</batch_size>
+    <read_only>N</read_only>
+    <nr_retries_on_error/>
+    <retry>Y</retry>
+    <cypher_from_field>N</cypher_from_field>
+    <cypher_field/>
+    <unwind>Y</unwind>
+    <unwind_map>rows</unwind_map>
+    <returning_graph>N</returning_graph>
+    <return_graph_field/>
+    <mappings>
+      <mapping>
+        <parameter>recovd</parameter>
+        <field>RECOVD</field>
+        <type>String</type>
+      </mapping>
+      <mapping>
+        <parameter>vaers_id</parameter>
+        <field>VAERS_ID</field>
+        <type>Integer</type>
+      </mapping>
+    </mappings>
+    <returns/>
+    <attributes/>
+    <GUI>
+      <xloc>688</xloc>
+      <yloc>752</yloc>
+    </GUI>
+  </transform>
+  <transform>
     <name>Nodes Merge:  VisitType - er_ed_visit</name>
     <type>Neo4jCypherOutput</type>
     <description/>
@@ -657,232 +697,25 @@ MERGE (ae)-[:VISITED]->(v)
     <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
     <cypher>UNWIND $rows AS row
 MERGE ( c:AdverseEvent {vaers_id : row.VAERS_ID} )
-ON CREATE SET
-	c.numdays = row.NUMDAYS,
-	c.splttype=row.SPLTTYPE,
-	c.v_adminby=row.V_ADMINBY,
-	c.v_fundby=row.V_FUNDBY,
-	c.onset_date=row.ONSET_DATE,
-	c.recvdate=row.RECVDATE,
-	c.rpt_date=row.RPT_DATE
+  ON CREATE SET
+	c.numdays    = row.NUMDAYS,
+	c.splttype   = row.SPLTTYPE,
+	c.v_adminby  = row.V_ADMINBY,
+	c.v_fundby   = row.V_FUNDBY,
+	c.onset_date = row.ONSET_DATE,
+	c.recvdate   = row.RECVDATE,
+	c.rpt_date   = row.RPT_DATE
 MERGE ( x:VaxEvent {vaers_id : row.VAERS_ID} )
-ON CREATE SET
-	x.vax_date = row.VAX_DATE
-</cypher>
-    <batch_size>5000</batch_size>
-    <read_only>N</read_only>
-    <nr_retries_on_error>10</nr_retries_on_error>
-    <retry>Y</retry>
-    <cypher_from_field>N</cypher_from_field>
-    <cypher_field/>
-    <unwind>Y</unwind>
-    <unwind_map>rows</unwind_map>
-    <returning_graph>N</returning_graph>
-    <return_graph_field/>
-    <mappings>
-      <mapping>
-        <parameter>VAERS_ID</parameter>
-        <field>VAERS_ID</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>RECVDATE</parameter>
-        <field>RECVDATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>STATE</parameter>
-        <field>STATE</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>AGE_YRS</parameter>
-        <field>AGE_YRS</field>
-        <type>Float</type>
-      </mapping>
-      <mapping>
-        <parameter>CAGE_YR</parameter>
-        <field>CAGE_YR</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>CAGE_MO</parameter>
-        <field>CAGE_MO</field>
-        <type>Float</type>
-      </mapping>
-      <mapping>
-        <parameter>SEX</parameter>
-        <field>SEX</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>RPT_DATE</parameter>
-        <field>RPT_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>SYMPTOM_TEXT</parameter>
-        <field>SYMPTOM_TEXT</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>DIED</parameter>
-        <field>DIED</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>DATEDIED</parameter>
-        <field>DATEDIED</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>L_THREAT</parameter>
-        <field>L_THREAT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>ER_VISIT</parameter>
-        <field>ER_VISIT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>HOSPITAL</parameter>
-        <field>HOSPITAL</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>HOSPDAYS</parameter>
-        <field>HOSPDAYS</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>X_STAY</parameter>
-        <field>X_STAY</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>DISABLE</parameter>
-        <field>DISABLE</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>RECOVD</parameter>
-        <field>RECOVD</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>VAX_DATE</parameter>
-        <field>VAX_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>ONSET_DATE</parameter>
-        <field>ONSET_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>NUMDAYS</parameter>
-        <field>NUMDAYS</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>LAB_DATA</parameter>
-        <field>LAB_DATA</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>V_ADMINBY</parameter>
-        <field>V_ADMINBY</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>V_FUNDBY</parameter>
-        <field>V_FUNDBY</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>OTHER_MEDS</parameter>
-        <field>OTHER_MEDS</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>CUR_ILL</parameter>
-        <field>CUR_ILL</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>HISTORY</parameter>
-        <field>HISTORY</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>PRIOR_VAX</parameter>
-        <field>PRIOR_VAX</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>SPLTTYPE</parameter>
-        <field>SPLTTYPE</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>FORMVERS</parameter>
-        <field>FORM_VERS</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>TODAYS_DATE</parameter>
-        <field>TODAYS_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>BIRTH_DEFECT</parameter>
-        <field>BIRTH_DEFECT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>OFC_VISIT</parameter>
-        <field>OFC_VISIT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>ER_ED_VISIT</parameter>
-        <field>ER_ED_VISIT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>ALLERGIES</parameter>
-        <field>ALLERGIES</field>
-        <type>String</type>
-      </mapping>
-    </mappings>
-    <returns/>
-    <attributes/>
-    <GUI>
-      <xloc>544</xloc>
-      <yloc>32</yloc>
-    </GUI>
-  </transform>
-  <transform>
-    <name>Nodes Merge: Patient</name>
-    <type>Neo4jCypherOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
-    <cypher>UNWIND $rows AS row
-MERGE ( c:Patient {vaers_id : row.VAERS_ID} )
-ON CREATE SET
-	c.age_yrs = row.AGE_YRS,
-	c.cage_yr = row.CAGE_YR,
-	c.cage_mo = row.CAGE_MO,
-	c.sex = row.SEX,
-	c.state = row.STATE
+  ON CREATE SET
+	x.vax_date   = row.VAX_DATE
+MERGE ( p:Patient {vaers_id : row.VAERS_ID} )
+  ON CREATE SET
+	p.age_yrs    = row.AGE_YRS,
+	p.cage_yr    = row.CAGE_YR,
+	p.cage_mo    = row.CAGE_MO,
+	p.sex        = row.SEX,
+	p.state      = row.STATE
+MERGE (p)-[:RECEIVED_VAX]->(x)-[:HAS_ADVERSE_EVENT]->(c)
 
 </cypher>
     <batch_size>5000</batch_size>
@@ -1076,7 +909,7 @@ ON CREATE SET
     <attributes/>
     <GUI>
       <xloc>544</xloc>
-      <yloc>112</yloc>
+      <yloc>32</yloc>
     </GUI>
   </transform>
   <transform>
@@ -1289,216 +1122,6 @@ SET c.prior_vax = row.pRIORVAX</cypher>
     </GUI>
   </transform>
   <transform>
-    <name>Nodes Merge: VaxEvent</name>
-    <type>Neo4jCypherOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
-    <cypher>UNWIND $rows AS row
-MERGE ( c:VaxEvent {vaers_id : row.VAERS_ID} )
-ON CREATE SET
-	c.vax_date = row.VAX_DATE</cypher>
-    <batch_size>5000</batch_size>
-    <read_only>N</read_only>
-    <nr_retries_on_error>10</nr_retries_on_error>
-    <retry>Y</retry>
-    <cypher_from_field>N</cypher_from_field>
-    <cypher_field/>
-    <unwind>Y</unwind>
-    <unwind_map>rows</unwind_map>
-    <returning_graph>N</returning_graph>
-    <return_graph_field/>
-    <mappings>
-      <mapping>
-        <parameter>VAERS_ID</parameter>
-        <field>VAERS_ID</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>RECVDATE</parameter>
-        <field>RECVDATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>STATE</parameter>
-        <field>STATE</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>AGE_YRS</parameter>
-        <field>AGE_YRS</field>
-        <type>Float</type>
-      </mapping>
-      <mapping>
-        <parameter>CAGE_YR</parameter>
-        <field>CAGE_YR</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>CAGE_MO</parameter>
-        <field>CAGE_MO</field>
-        <type>Float</type>
-      </mapping>
-      <mapping>
-        <parameter>SEX</parameter>
-        <field>SEX</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>RPT_DATE</parameter>
-        <field>RPT_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>SYMPTOM_TEXT</parameter>
-        <field>SYMPTOM_TEXT</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>DIED</parameter>
-        <field>DIED</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>DATEDIED</parameter>
-        <field>DATEDIED</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>L_THREAT</parameter>
-        <field>L_THREAT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>ER_VISIT</parameter>
-        <field>ER_VISIT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>HOSPITAL</parameter>
-        <field>HOSPITAL</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>HOSPDAYS</parameter>
-        <field>HOSPDAYS</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>X_STAY</parameter>
-        <field>X_STAY</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>DISABLE</parameter>
-        <field>DISABLE</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>RECOVD</parameter>
-        <field>RECOVD</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>VAX_DATE</parameter>
-        <field>VAX_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>ONSET_DATE</parameter>
-        <field>ONSET_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>NUMDAYS</parameter>
-        <field>NUMDAYS</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>LAB_DATA</parameter>
-        <field>LAB_DATA</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>V_ADMINBY</parameter>
-        <field>V_ADMINBY</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>V_FUNDBY</parameter>
-        <field>V_FUNDBY</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>OTHER_MEDS</parameter>
-        <field>OTHER_MEDS</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>CUR_ILL</parameter>
-        <field>CUR_ILL</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>HISTORY</parameter>
-        <field>HISTORY</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>PRIOR_VAX</parameter>
-        <field>PRIOR_VAX</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>SPLTTYPE</parameter>
-        <field>SPLTTYPE</field>
-        <type>String</type>
-      </mapping>
-      <mapping>
-        <parameter>FORMVERS</parameter>
-        <field>FORM_VERS</field>
-        <type>Integer</type>
-      </mapping>
-      <mapping>
-        <parameter>TODAYS_DATE</parameter>
-        <field>TODAYS_DATE</field>
-        <type>LocalDateTime</type>
-      </mapping>
-      <mapping>
-        <parameter>BIRTH_DEFECT</parameter>
-        <field>BIRTH_DEFECT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>OFC_VISIT</parameter>
-        <field>OFC_VISIT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>ER_ED_VISIT</parameter>
-        <field>ER_ED_VISIT</field>
-        <type>Boolean</type>
-      </mapping>
-      <mapping>
-        <parameter>ALLERGIES</parameter>
-        <field>ALLERGIES</field>
-        <type>String</type>
-      </mapping>
-    </mappings>
-    <returns/>
-    <attributes/>
-    <GUI>
-      <xloc>544</xloc>
-      <yloc>192</yloc>
-    </GUI>
-  </transform>
-  <transform>
     <name>OFC_VISIT is not null</name>
     <type>FilterRows</type>
     <description/>
@@ -1550,6 +1173,33 @@ ON CREATE SET
     <GUI>
       <xloc>544</xloc>
       <yloc>272</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>RECOVD is not null</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Nodes Merge:  RecoveryStatus</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>RECOVD</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <GUI>
+      <xloc>464</xloc>
+      <yloc>752</yloc>
     </GUI>
   </transform>
   <transform>
@@ -2690,7 +2340,7 @@ ON CREATE SET
     </GUI>
   </transform>
   <transform>
-    <name>Nodes Merge:  RecoveryStatus</name>
+    <name>Nodes Merge:  SymptomsDesc</name>
     <type>Neo4jCypherOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -2703,8 +2353,8 @@ ON CREATE SET
     <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
     <cypher>UNWIND $rows AS row
 MATCH ( ae:AdverseEvent {vaers_id : row.vaers_id } )
-MATCH ( x:RecoveryStatus {recovd : row.recovd } )
-MERGE (ae)-[:HASRECOVERY]->(x)</cypher>
+MERGE ( c:SymptomDesc { symptomtext: row.symptom_text } )
+MERGE (ae)-[:HASSYMPTOMTEXT]->(c)</cypher>
     <batch_size>5000</batch_size>
     <read_only>N</read_only>
     <nr_retries_on_error/>
@@ -2717,8 +2367,8 @@ MERGE (ae)-[:HASRECOVERY]->(x)</cypher>
     <return_graph_field/>
     <mappings>
       <mapping>
-        <parameter>recovd</parameter>
-        <field>RECOVD</field>
+        <parameter>symptom_text</parameter>
+        <field>SYMPTOM_TEXT</field>
         <type>String</type>
       </mapping>
       <mapping>
@@ -2730,35 +2380,8 @@ MERGE (ae)-[:HASRECOVERY]->(x)</cypher>
     <returns/>
     <attributes/>
     <GUI>
-      <xloc>688</xloc>
-      <yloc>752</yloc>
-    </GUI>
-  </transform>
-  <transform>
-    <name>RECOVD is not null</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Nodes Merge:  RecoveryStatus</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue>RECOVD</leftvalue>
-        <function>IS NOT NULL</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <attributes/>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>752</yloc>
+      <xloc>368</xloc>
+      <yloc>832</yloc>
     </GUI>
   </transform>
   <transform_error_handling>

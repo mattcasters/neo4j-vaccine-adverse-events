@@ -23,13 +23,13 @@
   </notepads>
   <order>
     <hop>
-      <from>CSV file input</from>
+      <from>Read file vaersvax</from>
       <to>Create Nodes: VaxDetails</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <transform>
-    <name>CSV file input</name>
+    <name>Read file vaersvax</name>
     <type>CSVInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -145,7 +145,7 @@
     <attributes/>
     <GUI>
       <xloc>96</xloc>
-      <yloc>112</yloc>
+      <yloc>32</yloc>
     </GUI>
   </transform>
   <transform>
@@ -230,8 +230,8 @@ vax_Type : row.VAX_TYPE
     <returns/>
     <attributes/>
     <GUI>
-      <xloc>400</xloc>
-      <yloc>112</yloc>
+      <xloc>256</xloc>
+      <yloc>32</yloc>
     </GUI>
   </transform>
   <transform_error_handling>

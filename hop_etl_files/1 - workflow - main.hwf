@@ -71,32 +71,6 @@
       <attributes_hac/>
     </action>
     <action>
-      <name>LOG - VAERS - FIRST LOAD - START</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage/>
-      <loglevel>Basic</loglevel>
-      <logsubject>XXXXXXXXXX VAERS - FIRST LOAD - START</logsubject>
-      <parallel>N</parallel>
-      <xloc>944</xloc>
-      <yloc>48</yloc>
-      <attributes_hac/>
-    </action>
-    <action>
-      <name>LOG - VAERS - FIRST LOAD - STOP</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage/>
-      <loglevel>Basic</loglevel>
-      <logsubject>XXXXXXXXXX VAERS - FIRST LOAD - STOP</logsubject>
-      <parallel>N</parallel>
-      <xloc>1472</xloc>
-      <yloc>48</yloc>
-      <attributes_hac/>
-    </action>
-    <action>
       <name>Create Constraints</name>
       <description/>
       <type>NEO4J_CYPHER_SCRIPT</type>
@@ -104,36 +78,25 @@
       <connection>Neo Desktop Vaers - user - neo4j - pw - vaers</connection>
       <script>CREATE CONSTRAINT UniqueAdverseEventVaersidConstraint IF NOT EXISTS ON (a:AdverseEvent) ASSERT a.vaers_id IS UNIQUE
 ;
-CREATE CONSTRAINT UniquePatientVaersidConstraint IF NOT EXISTS ON (a:Patient) ASSERT a.vaers_id IS UNIQUE
+CREATE CONSTRAINT UniqueDeathVaersidConstraint IF NOT EXISTS ON (a:Death) ASSERT a.vaers_id IS UNIQUE
 ;
-CREATE CONSTRAINT UniqueVaxEventVaersidConstraint IF NOT EXISTS ON (a:VaxEvent) ASSERT a.vaers_id IS UNIQUE
+CREATE CONSTRAINT UniquePatientVaersidConstraint IF NOT EXISTS ON (a:Patient) ASSERT a.vaers_id IS UNIQUE
 ;
 CREATE CONSTRAINT UniquePriorVaxVaersidConstraint IF NOT EXISTS ON (a:PriorVax) ASSERT a.vaers_id IS UNIQUE
 ;
-CREATE CONSTRAINT UniqueDeathVaersidConstraint IF NOT EXISTS ON (a:Death) ASSERT a.vaers_id IS UNIQUE
+CREATE CONSTRAINT UniqueRecoveryStatus IF NOT EXISTS ON (v:RecoveryStatus) ASSERT v.recovd IS UNIQUE
+;
+CREATE CONSTRAINT UniqueSeverityVaersid IF NOT EXISTS ON (v:Severity) ASSERT v.vaers_id IS UNIQUE
+;
+CREATE CONSTRAINT UniqueVaxEventVaersidConstraint IF NOT EXISTS ON (a:VaxEvent) ASSERT a.vaers_id IS UNIQUE
 ;
 CREATE CONSTRAINT UniqueVisitTypeVaersidConstraint IF NOT EXISTS ON (v:VisitType) ASSERT v.vaers_id IS UNIQUE;
-;
-CREATE CONSTRAINT UniqueRecoveryStatus IF NOT EXISTS ON (v:RecoveryStatus) ASSERT v.recovd IS UNIQUE
 ;
 </script>
       <replace_variables>N</replace_variables>
       <parallel>N</parallel>
       <xloc>528</xloc>
       <yloc>48</yloc>
-      <attributes_hac/>
-    </action>
-    <action>
-      <name>LOG - VAERS - VAX DATA START</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage/>
-      <loglevel>Basic</loglevel>
-      <logsubject>XXXXXXXXXX - VAERS - VAX DATA START</logsubject>
-      <parallel>N</parallel>
-      <xloc>944</xloc>
-      <yloc>128</yloc>
       <attributes_hac/>
     </action>
     <action>
@@ -161,20 +124,7 @@ CREATE CONSTRAINT UniqueRecoveryStatus IF NOT EXISTS ON (v:RecoveryStatus) ASSER
         <pass_all_parameters>Y</pass_all_parameters>
       </parameters>
       <parallel>N</parallel>
-      <xloc>1216</xloc>
-      <yloc>128</yloc>
-      <attributes_hac/>
-    </action>
-    <action>
-      <name>LOG - VAERS - VAX DATA STOP</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage/>
-      <loglevel>Basic</loglevel>
-      <logsubject>XXXXXXXXXX - VAERS - VAX DATA STOP</logsubject>
-      <parallel>N</parallel>
-      <xloc>1472</xloc>
+      <xloc>896</xloc>
       <yloc>128</yloc>
       <attributes_hac/>
     </action>
@@ -192,36 +142,7 @@ MATCH (v:VisitType) WHERE v.ofc_visit='Y' SET v:OfcVisit
 ;</script>
       <replace_variables>N</replace_variables>
       <parallel>N</parallel>
-      <xloc>1776</xloc>
-      <yloc>48</yloc>
-      <attributes_hac/>
-    </action>
-    <action>
-      <name>pipeline - vaers data.hpl</name>
-      <description/>
-      <type>PIPELINE</type>
-      <attributes/>
-      <filename>C:\SAM\Neo4j\hop\projects\vaers\pipeline - vaers data.hpl</filename>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <create_parent_folder>N</create_parent_folder>
-      <run_configuration>local</run_configuration>
-      <parameters>
-        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>
-      <parallel>N</parallel>
-      <xloc>1216</xloc>
+      <xloc>1232</xloc>
       <yloc>48</yloc>
       <attributes_hac/>
     </action>
@@ -252,6 +173,93 @@ MATCH (v:VisitType) WHERE v.ofc_visit='Y' SET v:OfcVisit
       <parallel>N</parallel>
       <xloc>704</xloc>
       <yloc>48</yloc>
+      <attributes_hac/>
+    </action>
+    <action>
+      <name>pipeline - severity.hpl</name>
+      <description/>
+      <type>PIPELINE</type>
+      <attributes/>
+      <filename>C:\SAM\Neo4j\hop\projects\vaers\pipeline - severity.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>1072</xloc>
+      <yloc>48</yloc>
+      <attributes_hac/>
+    </action>
+    <action>
+      <name>pipeline - vaers data.hpl</name>
+      <description/>
+      <type>PIPELINE</type>
+      <attributes/>
+      <filename>C:\SAM\Neo4j\hop\projects\vaers\pipeline - vaers data.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>896</xloc>
+      <yloc>48</yloc>
+      <attributes_hac/>
+    </action>
+    <action>
+      <name>pipeline - patient.hpl</name>
+      <description/>
+      <type>PIPELINE</type>
+      <attributes/>
+      <filename>C:\SAM\Neo4j\hop\projects\vaers\pipeline - patient.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>1072</xloc>
+      <yloc>128</yloc>
       <attributes_hac/>
     </action>
   </actions>
@@ -285,41 +293,6 @@ MATCH (v:VisitType) WHERE v.ofc_visit='Y' SET v:OfcVisit
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>LOG - VAERS - VAX DATA START</from>
-      <to>pipeline - vax details</to>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>pipeline - vax details</from>
-      <to>LOG - VAERS - VAX DATA STOP</to>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>LOG - VAERS - FIRST LOAD - STOP</from>
-      <to>Create additional labels</to>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>LOG - VAERS - FIRST LOAD - START</from>
-      <to>pipeline - vaers data.hpl</to>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>pipeline - vaers data.hpl</from>
-      <to>LOG - VAERS - FIRST LOAD - STOP</to>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Create Constraints</from>
       <to>pipeline - pre process steps.hpl</to>
       <enabled>Y</enabled>
@@ -328,14 +301,35 @@ MATCH (v:VisitType) WHERE v.ofc_visit='Y' SET v:OfcVisit
     </hop>
     <hop>
       <from>pipeline - pre process steps.hpl</from>
-      <to>LOG - VAERS - FIRST LOAD - START</to>
+      <to>pipeline - vax details</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>pipeline - severity.hpl</from>
+      <to>Create additional labels</to>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
     <hop>
       <from>pipeline - pre process steps.hpl</from>
-      <to>LOG - VAERS - VAX DATA START</to>
+      <to>pipeline - vaers data.hpl</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>pipeline - vaers data.hpl</from>
+      <to>pipeline - severity.hpl</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>pipeline - vaers data.hpl</from>
+      <to>pipeline - patient.hpl</to>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
